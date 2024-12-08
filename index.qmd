@@ -9,24 +9,20 @@ about:
   image: assets/arpita.jpg
   image-shape: round
   links:
-    - icon: envelope
-      href: "mailto: scasag@leeds.ac.uk"
-    - icon: linkedin
+    - text: "{{< fa envelope size=xl >}}"
+      href: "mailto:scasag@leeds.ac.uk"
+    - text: "{{< fa brands linkedin size=xl >}}"
       href: https://www.linkedin.com/in/arpitasaggar/
-    - text: "{{< ai google-scholar >}}"
+    - text: "{{< ai google-scholar size=xl >}}"
       href: https://scholar.google.co.uk/citations?hl=en&pli=1&user=YAAJNhwAAAAJ
-    - icon: github
+    - text: "{{< fa brands github size=xl >}}"
       href: https://github.com/arpita2512
-    - text: "{{< ai orcid >}}"
+    - text: "{{< ai orcid size=xl >}}"
       href: https://orcid.org/0009-0009-7550-0863
 ---
 
 ### Hello!
 
-<div style="text-align: justify">
-
-I'm a PhD student at the [UKRI Centre for Doctoral Training in AI for Medical Diagnosis and Care](https://ai-medical.leeds.ac.uk/) at the University of Leeds. My doctoral research is focused on the simulation of virtual patients to support medical training, and I'm fortunate to be supervised by [Professor David Hogg](https://eps.leeds.ac.uk/staff/84/professor-david-hogg), [Dr Duygu Sarikaya](https://eps.leeds.ac.uk/computing/staff/13320/dr-duygu-sarikaya), [Dr Jonathan Darling](https://medicinehealth.leeds.ac.uk/medicine/staff/257/dr-jonathan-darling) and [Professor Vania Dimitrova](https://eps.leeds.ac.uk/staff/184/professor-vania-dimitrova).
+I'm a PhD student at the [UKRI Centre for Doctoral Training in AI for Medical Diagnosis and Care](https://ai-medical.leeds.ac.uk/) at the University of Leeds. My doctoral research is focused on simulating virtual patients to support medical training, and I'm fortunate to be supervised by [Professor David Hogg](https://eps.leeds.ac.uk/staff/84/professor-david-hogg), [Dr Duygu Sarikaya](https://eps.leeds.ac.uk/computing/staff/13320/dr-duygu-sarikaya), [Dr Jonathan Darling](https://medicinehealth.leeds.ac.uk/medicine/staff/257/dr-jonathan-darling) and [Professor Vania Dimitrova](https://eps.leeds.ac.uk/staff/184/professor-vania-dimitrova).
 
 Before starting my PhD, I was a [Data Science for Social Good fellow](https://warwick.ac.uk/research/data-science/warwick-data/dssgx/dssgx2022/) at the University of Warwick, where I worked with Save The Children and UNICEF to [map multidimensional child poverty across sub-Saharan Africa](https://www.childatlas.org/blog/mapping-child-poverty). My background is in Computing, and I’ve previously worked on research projects at the intersection of AI and healthcare.
-
-</div>
