@@ -14,8 +14,7 @@
         }
 
         .logo {
-            flex: 0 0 200px;
-
+            flex: 1 1 700px;
             img {
                 width: 100%;
             }
@@ -34,17 +33,13 @@
             color: $gray-800;
         }
 
-        .pub-description {
+        .pub-tldr {
             font-weight: 300;
-            font-size: 1.1em;
+            font-size: 1em;
             margin-bottom: 0.5em;
         }
 
-        .pub-role {
-            font-weight: 500;
-        }
-
-        ul.pub-semesters {
+        ul.pub-btns {
             list-style: none;
             padding: 0;
             margin-bottom: 0;

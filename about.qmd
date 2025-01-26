@@ -1,0 +1,16 @@
+---
+title: About
+format:
+  html:
+    toc: true
+---
+
+## Research Interests
+
+My research interests span generative AI, human-computer interaction, and AI-enhanced learning. I'm interested in investigating methods to improve the realism of foundation models, and combining these models across different modalities to produce interactive simulacra of human behaviour. I'm part of the [AI Research Theme](https://eps.leeds.ac.uk/computing-research-groups/doc/artificial-intelligence) and the MIRAI (Medical Imaging and GeneRative AI) and AI4L (AI for Languages) Research Groups at the University of Leeds.
+
+## Other Activities
+
+
+
+## Gallery

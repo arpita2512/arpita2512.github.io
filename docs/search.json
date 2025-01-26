@@ -25,7 +25,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Economy, Society, and Public Policy \n                \n            \n            \n                MPA 612 | \n                Brigham Young University\n                \n            \n            \n\n            \n                \n                \n                 Winter 2019\n                \n                \n                \n                 Winter 2019 (executive MPA)\n                \n                \n            \n        \n        \n            \n        \n    \n    \n    \n        \n            \n                \n                Data Science and Statistics for Public Management \n                \n            \n            \n                MPA 630 | \n                Brigham Young University\n                \n            \n            \n\n            \n                \n                \n                 Fall 2018\n                \n                \n            \n        \n        \n            \n        \n    \n    \n    \n        \n            \n                \n                Data Visualization \n                \n            \n            \n                MPA 635 | \n                Brigham Young University\n                \n            \n            \n\n            \n                \n                \n                 Fall 2018\n                \n                \n            \n        \n        \n            \n        \n    \n    \n\n\nNo matching items"
+    "text": "Micro-projections of multidimensional child poverty in sub-Saharan Africa \n            \n            \n                Marina Vicini, John Fitzgerald, Daniela Pinto Veizaga,  Arpita Saggar, Oliver Fiala  \n                Handbook on Child Poverty and Inequality (2025)\n            \n            \n                TLDR: \n                Machine learning approach for producing fine-grained multidimensional child poverty estimates.\n            \n\n            \n                \n                    Handbook (to be published)\n                \n            \n        \n        \n            \n        \n    \n    \n    \n        \n            \n                XAI-MethylMarker: Explainable AI approach for biomarker discovery for breast cancer subtype classification using methylation data \n            \n            \n                Sheetal Rajpal, Ankit Rajpal,  Arpita Saggar, Ashok K Vaid, Virendra Kumar, Manoj Agarwal, Naveen Kumar  \n                Expert Systems with Applications (2023)\n            \n            \n                TLDR: \n                Explainable AI-based biomarker discovery framework applied to DNA methylation data to determine a small biomarker set for breast cancer stratification.\n            \n\n            \n                \n                    Paper\n                \n                    DOI\n                \n                    Code\n                \n            \n        \n        \n            \n        \n    \n    \n    \n        \n            \n                COV-ELM classifier: An extreme learning machine based identification of COVID-19 using chest X-ray images \n            \n            \n                Sheetal Rajpal, Manoj Agarwal, Ankit Rajpal, Navin Lakhyani,  Arpita Saggar, Naveen Kumar  \n                Intelligent Decision Technologies (2022)\n            \n            \n                TLDR: \n                A three-stage ELM-based framework to distinguish between COVID-19, normal, and pneumonia chest X-rays.\n            \n\n            \n                \n                    Paper\n                \n                    DOI\n                \n            \n        \n        \n            \n        \n    \n    \n\n\nNo matching items"
   },
   {
     "objectID": "activities.html",
@@ -124,5 +124,26 @@
     "title": "Curriculum Vitae",
     "section": "",
     "text": "Languages: Python, R, C++, SQL, HTML/CSS, JavaScript, LaTeX.\nFrameworks & Tools: Git, Slurm, Tensorflow, PyTorch, Keras, Transformers, Scikit-Learn, Streamlit, Quarto."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My research interests span generative AI, human-computer interaction, and AI-enhanced learning. I’m interested in investigating methods to improve the realism of foundation models, and combining these models across different modalities to produce interactive simulacra of human behaviour. I’m part of the AI Research Theme and the MIRAI (Medical Imaging and GeneRative AI) and AI4L (AI for Languages) Research Groups at the University of Leeds."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "",
+    "text": "My research interests span generative AI, human-computer interaction, and AI-enhanced learning. I’m interested in investigating methods to improve the realism of foundation models, and combining these models across different modalities to produce interactive simulacra of human behaviour. I’m part of the AI Research Theme and the MIRAI (Medical Imaging and GeneRative AI) and AI4L (AI for Languages) Research Groups at the University of Leeds."
+  },
+  {
+    "objectID": "about.html#other-activities",
+    "href": "about.html#other-activities",
+    "title": "About",
+    "section": "Other Activities",
+    "text": "Other Activities"
   }
 ]

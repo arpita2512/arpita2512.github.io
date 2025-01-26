@@ -3,29 +3,21 @@
     <% for (const pub of items) { %>
     <div class="pub-entry">
         <div class="body">
-            <p class="pub-title">
-                <% if (pub.url) { %>
-                <a href="<%= pub.url %>" target="_blank"><%= pub.title %></a> 
-                <% } else { %>
+            <p class="pub-title" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">
                 <%= pub.title %> 
-                <% } %>
             </p>
             <p class="pub-details">
-                <span class="pub-number"><%= pub.number %></span> | 
-                <span class="pub-university"><%= pub.university %></span>
-                <% if (pub.role) { %>
-                | <span class="pub-role"><%= pub.role %></span>
-                <% } %>
+                <span class="pub-authors"><%= pub.authors.split("Arpita Saggar")[0] %></span> <span class="pub-authors" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;"><%= "Arpita Saggar" %></span><span class="pub-authors"><%= pub.authors.split("Arpita Saggar")[1] %></span> <div style="height:1px;font-size:1px;">&nbsp;</div>
+                <span class="pub-venue" style="font-weight: bolder;text-shadow: 0.5px 0.5px #000000;font-style: italic;"><%= pub.venue %></span> <span class="pub-year" style="font-weight: bolder;text-shadow: 0.5px 0.5px #000000;font-style: italic;">(<%= pub.year %>)</span>
             </p>
-            <p class="pub-description"><%= pub.description %></p>
+            <p class="pub-tldr">
+                <span class="pub-tldr" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">TLDR: </span>
+                <%= pub.tldr %>
+            </p>
 
-            <ul class="pub-semesters">
-                <% for (const semester of pub.semester) { %>
-                <% if (semester.url) { %>
-                <li><a href="<%= semester.url %>"><i class="fa-solid fa-building-columns"></i> <%= semester.name %></a></li>
-                <% } else { %> 
-                <li class="no-link"><i class="fa-solid fa-building-columns"></i> <%= semester.name %></li>
-                <% } %>
+            <ul class="pub-btns">
+                <% for (const btn of pub.btn) { %>
+                    <a href="<%= btn.link %>" class="btn btn-primary btn-sm rounded pt-0 pb-0" role="button" target="_blank"><%= btn.name %></a>
                 <% } %>
             </ul>
         </div>

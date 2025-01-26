@@ -1,28 +1,35 @@
-- title: Economy, Society, and Public Policy
-  university: Brigham Young University
-  number: MPA 612
-  url: https://econw19.classes.andrewheiss.com/
-  logo: research/test.png
-  semester:
-  - name: Winter 2019
-    url: https://econw19.classes.andrewheiss.com/
-  - name: Winter 2019 (executive MPA)
-    url: https://empa-econw19.classes.andrewheiss.com/
+- title: "Micro-projections of multidimensional child poverty in sub-Saharan Africa"
+  authors: "Marina Vicini, John Fitzgerald, Daniela Pinto Veizaga, Arpita Saggar, Oliver Fiala"
+  venue: Handbook on Child Poverty and Inequality
+  logo: research/dssg.png
+  tldr: Machine learning approach for producing fine-grained multidimensional child poverty estimates.
+  year: 2025
+  btn:
+  - name: Handbook (to be published)
+    link: https://www.e-elgar.com/shop/gbp/handbook-on-child-poverty-and-inequality-9781802200423.html
 
-- title: Data Science and Statistics for Public Management
-  university: Brigham Young University
-  number: MPA 630
-  url: https://statsf18.classes.andrewheiss.com/
-  logo: research/test.png
-  semester:
-  - name: Fall 2018
-    url: https://statsf18.classes.andrewheiss.com/
+- title: "XAI-MethylMarker: Explainable AI approach for biomarker discovery for breast cancer subtype classification using methylation data"
+  authors: "Sheetal Rajpal, Ankit Rajpal, Arpita Saggar, Ashok K Vaid, Virendra Kumar, Manoj Agarwal, Naveen Kumar"
+  venue: Expert Systems with Applications
+  tldr: Explainable AI-based biomarker discovery framework applied to DNA methylation data to determine a small biomarker set for breast cancer stratification.
+  year: 2023
+  logo: research/xai_methyl.png
+  btn:
+  - name: Paper
+    link: https://www.sciencedirect.com/science/article/pii/S0957417423006322
+  - name: DOI
+    link: https://doi.org/10.1016/j.eswa.2023.120130
+  - name: Code
+    link: https://github.com/SheetalRajpal/methyl-marker
 
-- title: Data Visualization
-  university: Brigham Young University
-  number: MPA 635
-  url: https://datavizf18.classes.andrewheiss.com/
-  logo: research/test.png
-  semester:
-  - name: Fall 2018
-    url: https://datavizf18.classes.andrewheiss.com/
+- title: "COV-ELM classifier: An extreme learning machine based identification of COVID-19 using chest X-ray images"
+  authors: "Sheetal Rajpal, Manoj Agarwal, Ankit Rajpal, Navin Lakhyani, Arpita Saggar, Naveen Kumar"
+  venue: Intelligent Decision Technologies
+  logo: research/cov_elm.png
+  tldr: A three-stage ELM-based framework to distinguish between COVID-19, normal, and pneumonia chest X-rays.
+  year: 2022
+  btn:
+  - name: Paper
+    link: https://content.iospress.com/articles/intelligent-decision-technologies/idt210055
+  - name: DOI
+    link: https://doi.org/10.3233/IDT-210055

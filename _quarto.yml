@@ -6,6 +6,8 @@ website:
   title: "Arpita Saggar"
   navbar:
     right:
+      - href: about.qmd
+        text: About
       - href: research.qmd
         text: Research
       - href: cv.qmd
