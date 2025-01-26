@@ -13,6 +13,7 @@ website:
 
 format:
   html:
-    theme: lux
+    theme: [lux, assets/research.scss]
     css: assets/styles.css
     toc: true
+    smooth-scroll: true

@@ -2,6 +2,7 @@
 format:
   html:
     toc: true
+pagetitle: "Curriculum Vitae"
 css: assets/cv.css
 format-links: [pdf]
 ---

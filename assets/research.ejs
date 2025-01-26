@@ -1,0 +1,38 @@
+```{=html}
+<div class="publications">
+    <% for (const pub of items) { %>
+    <div class="pub-entry">
+        <div class="body">
+            <p class="pub-title">
+                <% if (pub.url) { %>
+                <a href="<%= pub.url %>" target="_blank"><%= pub.title %></a> 
+                <% } else { %>
+                <%= pub.title %> 
+                <% } %>
+            </p>
+            <p class="pub-details">
+                <span class="pub-number"><%= pub.number %></span> | 
+                <span class="pub-university"><%= pub.university %></span>
+                <% if (pub.role) { %>
+                | <span class="pub-role"><%= pub.role %></span>
+                <% } %>
+            </p>
+            <p class="pub-description"><%= pub.description %></p>
+
+            <ul class="pub-semesters">
+                <% for (const semester of pub.semester) { %>
+                <% if (semester.url) { %>
+                <li><a href="<%= semester.url %>"><i class="fa-solid fa-building-columns"></i> <%= semester.name %></a></li>
+                <% } else { %> 
+                <li class="no-link"><i class="fa-solid fa-building-columns"></i> <%= semester.name %></li>
+                <% } %>
+                <% } %>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="<%= pub.logo %>" alt="<%= pub.title %>" title="<%= pub.title %>" />
+        </div>
+    </div>
+    <% } %>
+</div>
+```

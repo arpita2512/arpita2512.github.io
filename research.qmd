@@ -1,5 +1,11 @@
 ---
 title: "Research"
+listing:
+  - id: articles
+    contents: research/research.yml
+    template: assets/research.ejs
+toc: false
 ---
 
-About this site
+:::{#articles}
+:::

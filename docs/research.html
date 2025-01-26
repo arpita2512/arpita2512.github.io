@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -38,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bf19b75f51ea680c8de03e84aa65eabd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2a8b831bbc70b60c50f04a6d55cecba5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,12 +68,71 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-university','listing-number','listing-url','listing-logo','listing-semester',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-university","listing-number","listing-url","listing-logo","listing-semester"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -107,9 +168,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -132,7 +191,100 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
+<div class="publications">
+    
+    <div class="pub-entry">
+        <div class="body">
+            <p class="pub-title">
+                
+                <a href="https://econw19.classes.andrewheiss.com/" target="_blank">Economy, Society, and Public Policy</a> 
+                
+            </p>
+            <p class="pub-details">
+                <span class="pub-number">MPA 612</span> | 
+                <span class="pub-university">Brigham Young University</span>
+                
+            </p>
+            <p class="pub-description"></p>
+
+            <ul class="pub-semesters">
+                
+                
+                <li><a href="https://econw19.classes.andrewheiss.com/"><i class="fa-solid fa-building-columns"></i> Winter 2019</a></li>
+                
+                
+                
+                <li><a href="https://empa-econw19.classes.andrewheiss.com/"><i class="fa-solid fa-building-columns"></i> Winter 2019 (executive MPA)</a></li>
+                
+                
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="research/test.png" alt="Economy, Society, and Public Policy" title="Economy, Society, and Public Policy">
+        </div>
+    </div>
+    
+    <div class="pub-entry">
+        <div class="body">
+            <p class="pub-title">
+                
+                <a href="https://statsf18.classes.andrewheiss.com/" target="_blank">Data Science and Statistics for Public Management</a> 
+                
+            </p>
+            <p class="pub-details">
+                <span class="pub-number">MPA 630</span> | 
+                <span class="pub-university">Brigham Young University</span>
+                
+            </p>
+            <p class="pub-description"></p>
+
+            <ul class="pub-semesters">
+                
+                
+                <li><a href="https://statsf18.classes.andrewheiss.com/"><i class="fa-solid fa-building-columns"></i> Fall 2018</a></li>
+                
+                
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="research/test.png" alt="Data Science and Statistics for Public Management" title="Data Science and Statistics for Public Management">
+        </div>
+    </div>
+    
+    <div class="pub-entry">
+        <div class="body">
+            <p class="pub-title">
+                
+                <a href="https://datavizf18.classes.andrewheiss.com/" target="_blank">Data Visualization</a> 
+                
+            </p>
+            <p class="pub-details">
+                <span class="pub-number">MPA 635</span> | 
+                <span class="pub-university">Brigham Young University</span>
+                
+            </p>
+            <p class="pub-description"></p>
+
+            <ul class="pub-semesters">
+                
+                
+                <li><a href="https://datavizf18.classes.andrewheiss.com/"><i class="fa-solid fa-building-columns"></i> Fall 2018</a></li>
+                
+                
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="research/test.png" alt="Data Visualization" title="Data Visualization">
+        </div>
+    </div>
+    
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 
@@ -559,4 +711,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
