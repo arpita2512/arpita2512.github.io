@@ -6,15 +6,13 @@ website:
   title: "Arpita Saggar"
   navbar:
     right:
-      - href: publications.qmd
-        text: Publications
-      - href: projects.qmd
-        text: Projects
+      - href: research.qmd
+        text: Research
       - href: cv.qmd
-        text: CV
+        text: Short CV
 
 format:
   html:
     theme: lux
-    css: styles.css
+    css: assets/styles.css
     toc: true

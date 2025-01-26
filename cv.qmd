@@ -1,5 +1,62 @@
 ---
-title: "CV"
+format:
+  html:
+    toc: true
+css: assets/cv.css
+format-links: [pdf]
 ---
 
-About this site
+# [Curriculum Vitae]{style="text-transform:none;"}
+
+## EDUCATION
+
+[Doctor of Philosophy -- AI for Medical Diagnosis and Care]{.edu} <br> *University of Leeds* [*2022 --- Present*]{.cvdate}
+
+-   Thesis Title: A virtual patient to support medical training
+-   EPSRC PhD Studentship
+-   Expected completion: Oct 2026
+
+[Master of Computer Applications]{.edu} <br> *University of Delhi* [*2019 --- 2022*]{.cvdate}
+
+-   Thesis Title: XAI-based Biomarker Discovery for Breast Cancer Stratification using Multi-Omics Data
+-   $1^{st}$ Class Honours (79.1%)
+
+[B.Sc. (Hons) Computer Science]{.edu} <br> *University of Delhi* [*2016 --- 2019*]{.cvdate}
+
+-   Indraprastha College for Women
+-   $1^{st}$ Class Honours (84.5%)
+
+## SELECT EXPERIENCE
+
+### Teaching Assistant{style="text-transform:none;"}
+
+*School of Computer Science, University of Leeds* [Oct 2023 -- Present]{.cvdate}
+
+-   [COMP5122M Data Science](https://webprod3.leeds.ac.uk/catalogue/dynmodules.asp?Y=202425&F=P&m=COMP-5122M) <br> Module Lead: Dr Duygu Sarikaya
+-   [COMP2121 Data Mining](https://webprod3.leeds.ac.uk/catalogue/dynmodules.asp?Y=202324&m=COMP-2121) <br> Module Lead: Prof Eric Atwell
+-   [COMP5840M Data Mining and Text Analytics](https://webprod3.leeds.ac.uk/catalogue/dynmodules.asp?Y=202324&F=P&m=COMP-5840M) <br> Module Lead: Prof Eric Atwell
+-   [COMP2611 Artificial Intelligence](https://webprod3.leeds.ac.uk/catalogue/dynmodules.asp?Y=202324&m=COMP-2611) <br> Module Lead: Dr Brandon Bennett
+
+### Researcher{style="text-transform:none;"}
+
+*Data Study Group, Alan Turing Institute* [Dec 2023 -- Dec 2023]{.cvdate}
+
+A short research project in collaboration with the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) to apply machine learning for biodiversity monitoring. [REPORT](https://www.turing.ac.uk/news/publications/data-study-group-final-report-uk-centre-ecology-hydrology-ukceh)
+
+-   Biodiversity metrics and interactive data visualisations for variations in moth populations to promote stakeholder engagement and interest in biodiversity monitoring.
+-   Methods to improve the transparency of machine learning models and increase the trustworthiness of monitoring results.
+
+### Fellow{style="text-transform:none;"}
+
+*Data Science for Social Good Foundation and University of Warwick* [Jun 2022 -- Aug 2022]{.cvdate}
+
+A joint project with UNICEF and Save the Children. The aim was to predict multi-dimensional child poverty in Sub-Saharan Africa to optimise resource allocation.
+
+-   A [package](https://github.com/DSSGxUK/s22_savethechildren) to produce high-resolution poverty estimates using data from Google Earth Engine, Facebook’s ads connectivity graph and Relative Wealth Index, and open telecommunications tower networks. 
+-   Demographic and Health Surveys (DHS) to ground predictions of the machine learning model(s). 
+-   Results presented at the [UN World Data Forum 2023](https://www.youtube.com/watch?v=yM1LPiqHSFA&list=PL5fDyB21zyLNy5WZAXosFc6yfeZw9ISeR&t=754s) and published in the [Handbook on Child Poverty and Inequality](https://www.e-elgar.com/shop/gbp/handbook-on-child-poverty-and-inequality-9781802200423.html).
+
+## TECHNICAL SKILLS
+
+-   Languages: Python, R, C++, SQL, HTML/CSS, JavaScript, LaTeX.
+-   Frameworks & Tools: Git, Slurm, Tensorflow, PyTorch, Keras, Transformers, Scikit-Learn, Streamlit, Quarto.

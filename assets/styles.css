@@ -15,3 +15,7 @@ div.quarto-about-trestles .about-entity .about-links {
 a:hover{
     opacity: 70%;
 }
+
+div.quarto-about-trestles {
+    padding-top: 0em !important;
+}

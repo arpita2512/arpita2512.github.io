@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teaching – Arpita Saggar</title>
+<title>clean_pub_data – Arpita Saggar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bf19b75f51ea680c8de03e84aa65eabd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-bf19b75f51ea680c8de03e84aa65eabd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,9 +100,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../assets/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Arpita Saggar</span>
     </a>
   </div>
@@ -89,16 +126,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" aria-current="page"> 
-<span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
+    <a class="nav-link" href="../cv.html"> 
+<span class="menu-text">Short CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -115,28 +148,153 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Teaching</h1>
+
+
+
+<div id="cell-0" class="cell" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">'display.max_columns'</span>, <span class="dv">500</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<div id="cell-1" class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"works.csv"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df.head(<span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="9">
+<div>
 
 
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">put_code</th>
+<th data-quarto-table-cell-role="th">url</th>
+<th data-quarto-table-cell-role="th">type</th>
+<th data-quarto-table-cell-role="th">journal_title</th>
+<th data-quarto-table-cell-role="th">visibility</th>
+<th data-quarto-table-cell-role="th">path</th>
+<th data-quarto-table-cell-role="th">display_index</th>
+<th data-quarto-table-cell-role="th">created_date_value</th>
+<th data-quarto-table-cell-role="th">last_modified_date_value</th>
+<th data-quarto-table-cell-role="th">source_source_orcid</th>
+<th data-quarto-table-cell-role="th">source_assertion_origin_client_id</th>
+<th data-quarto-table-cell-role="th">source_source_client_id_uri</th>
+<th data-quarto-table-cell-role="th">source_source_client_id_path</th>
+<th data-quarto-table-cell-role="th">source_source_client_id_host</th>
+<th data-quarto-table-cell-role="th">source_source_name_value</th>
+<th data-quarto-table-cell-role="th">source_assertion_origin_orcid_uri</th>
+<th data-quarto-table-cell-role="th">source_assertion_origin_orcid_path</th>
+<th data-quarto-table-cell-role="th">source_assertion_origin_orcid_host</th>
+<th data-quarto-table-cell-role="th">source_assertion_origin_name_value</th>
+<th data-quarto-table-cell-role="th">title_subtitle</th>
+<th data-quarto-table-cell-role="th">title_translated_title</th>
+<th data-quarto-table-cell-role="th">title_title_value</th>
+<th data-quarto-table-cell-role="th">external_id_type</th>
+<th data-quarto-table-cell-role="th">external_id_value</th>
+<th data-quarto-table-cell-role="th">external_id_normalized_error</th>
+<th data-quarto-table-cell-role="th">external_id_url</th>
+<th data-quarto-table-cell-role="th">external_id_relationship</th>
+<th data-quarto-table-cell-role="th">external_id_normalized_value</th>
+<th data-quarto-table-cell-role="th">external_id_normalized_transient</th>
+<th data-quarto-table-cell-role="th">publication_date_year_value</th>
+<th data-quarto-table-cell-role="th">publication_date_month_value</th>
+<th data-quarto-table-cell-role="th">publication_date_day_value</th>
+<th data-quarto-table-cell-role="th">url_value</th>
+<th data-quarto-table-cell-role="th">publication_date_day</th>
+<th data-quarto-table-cell-role="th">journal_title_value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>172900202</td>
+<td>NaN</td>
+<td>report</td>
+<td>NaN</td>
+<td>public</td>
+<td>/0009-0009-7550-0863/work/172900202</td>
+<td>1</td>
+<td>2024-12-02</td>
+<td>1733132536520</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>https://orcid.org/client/APP-IN0O56SBVVTB7NN4</td>
+<td>APP-IN0O56SBVVTB7NN4</td>
+<td>orcid.org</td>
+<td>OpenAIRE Explore</td>
+<td>https://orcid.org/0009-0009-7550-0863</td>
+<td>0009-0009-7550-0863</td>
+<td>orcid.org</td>
+<td>Arpita Saggar</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>Data Study Group Final Report: UK Centre for E...</td>
+<td>doi</td>
+<td>10.5281/zenodo.13687424</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>self</td>
+<td>10.5281/zenodo.13687424</td>
+<td>True</td>
+<td>2024</td>
+<td>9.0</td>
+<td>5.0</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>172900202</td>
+<td>NaN</td>
+<td>report</td>
+<td>NaN</td>
+<td>public</td>
+<td>/0009-0009-7550-0863/work/172900202</td>
+<td>1</td>
+<td>2024-12-02</td>
+<td>1733132536520</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>https://orcid.org/client/APP-IN0O56SBVVTB7NN4</td>
+<td>APP-IN0O56SBVVTB7NN4</td>
+<td>orcid.org</td>
+<td>OpenAIRE Explore</td>
+<td>https://orcid.org/0009-0009-7550-0863</td>
+<td>0009-0009-7550-0863</td>
+<td>orcid.org</td>
+<td>Arpita Saggar</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>Data Study Group Final Report: UK Centre for E...</td>
+<td>doi</td>
+<td>10.5281/zenodo.13687423</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>self</td>
+<td>10.5281/zenodo.13687423</td>
+<td>True</td>
+<td>2024</td>
+<td>9.0</td>
+<td>5.0</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+</tbody>
+</table>
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>About this site</p>
+</div>
+</div>
+</div>
+<div id="cell-2" class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> df[(df[<span class="st">"external_id_type"</span>]<span class="op">==</span><span class="st">"doi"</span>) <span class="op">&amp;</span> (df[<span class="st">'source_source_name_value'</span>]<span class="op">!=</span><span class="st">"Symplectic Elements at University of Leeds"</span>)]</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> x.drop_duplicates(subset<span class="op">=</span>[<span class="st">"title_title_value"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="cell-3" class="cell" data-execution_count="21">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>x.to_csv(<span class="st">"clean_works.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 

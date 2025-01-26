@@ -5,6 +5,7 @@ format:
 title: "Arpita Saggar"
 pagetitle: "Arpita Saggar"
 about:
+  id: profile
   template: trestles
   image: assets/arpita.jpg
   image-shape: round
@@ -21,8 +22,10 @@ about:
       href: https://orcid.org/0009-0009-7550-0863
 ---
 
+:::{#profile}
 ### Hello!
 
-I'm a PhD student at the [UKRI Centre for Doctoral Training in AI for Medical Diagnosis and Care](https://ai-medical.leeds.ac.uk/) at the University of Leeds. My doctoral research is focused on simulating virtual patients to support medical training, and I'm fortunate to be supervised by [Professor David Hogg](https://eps.leeds.ac.uk/staff/84/professor-david-hogg), [Dr Duygu Sarikaya](https://eps.leeds.ac.uk/computing/staff/13320/dr-duygu-sarikaya), [Dr Jonathan Darling](https://medicinehealth.leeds.ac.uk/medicine/staff/257/dr-jonathan-darling) and [Professor Vania Dimitrova](https://eps.leeds.ac.uk/staff/184/professor-vania-dimitrova).
+I'm a PhD student within the [UKRI CDT in AI for Medical Diagnosis and Care](https://ai-medical.leeds.ac.uk/) at the University of Leeds. My research focuses on using generative AI to create patient simulations for medical training. I'm fortunate to be supervised by [Professor David Hogg](https://eps.leeds.ac.uk/staff/84/professor-david-hogg), [Dr Duygu Sarikaya](https://eps.leeds.ac.uk/computing/staff/13320/dr-duygu-sarikaya), [Dr Jonathan Darling](https://medicinehealth.leeds.ac.uk/medicine/staff/257/dr-jonathan-darling) and [Professor Vania Dimitrova](https://eps.leeds.ac.uk/staff/184/professor-vania-dimitrova).
 
-Before starting my PhD, I was a [Data Science for Social Good fellow](https://warwick.ac.uk/research/data-science/warwick-data/dssgx/dssgx2022/) at the University of Warwick, where I worked with Save The Children and UNICEF to [map multidimensional child poverty across sub-Saharan Africa](https://www.childatlas.org/blog/mapping-child-poverty). My background is in Computing, and I’ve previously worked on research projects at the intersection of AI and healthcare.
+Before starting my PhD, I was a [Data Science for Social Good fellow](https://warwick.ac.uk/research/data-science/warwick-data/dssgx/dssgx2022/) at the University of Warwick, where I worked with Save The Children UK and UNICEF to [map child poverty across sub-Saharan Africa](https://www.childatlas.org/blog/mapping-child-poverty). My background is in Computing, and I’ve previously worked on research projects at the intersection of AI and healthcare.
+:::
