@@ -2,6 +2,8 @@
 format:
   html:
     toc: false
+    link-external-icon: true
+    link-external-newwindow: true
 title: "Arpita Saggar"
 pagetitle: "Arpita Saggar"
 about:
@@ -14,12 +16,16 @@ about:
       href: "mailto:scasag@leeds.ac.uk"
     - text: "{{< fa brands linkedin size=xl >}}"
       href: https://www.linkedin.com/in/arpitasaggar/
+      target: _blank
     - text: "{{< ai google-scholar size=xl >}}"
       href: https://scholar.google.co.uk/citations?hl=en&pli=1&user=YAAJNhwAAAAJ
+      target: _blank
     - text: "{{< fa brands github size=xl >}}"
       href: https://github.com/arpita2512
+      target: _blank
     - text: "{{< ai orcid size=xl >}}"
       href: https://orcid.org/0009-0009-7550-0863
+      target: _blank
 ---
 
 :::{#profile}

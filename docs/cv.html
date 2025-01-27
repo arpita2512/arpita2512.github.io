@@ -205,8 +205,8 @@ window.Quarto = {
 <p><em>Data Study Group, Alan Turing Institute</em> <span class="cvdate">Dec 2023 – Dec 2023</span></p>
 <p>A short research project in collaboration with the <a href="https://www.ceh.ac.uk/">UK Centre for Ecology &amp; Hydrology</a> to apply machine learning for biodiversity monitoring. <a href="https://www.turing.ac.uk/news/publications/data-study-group-final-report-uk-centre-ecology-hydrology-ukceh">REPORT</a></p>
 <ul>
-<li>Biodiversity metrics and interactive data visualisations for variations in moth populations to promote stakeholder engagement and interest in biodiversity monitoring.</li>
-<li>Methods to improve the transparency of machine learning models and increase the trustworthiness of monitoring results.</li>
+<li>Developed methods for analysing how variations in weather (temperature, rainfall, sunshine and wind) affect species abundance for moth populations.</li>
+<li>Produced interactive data visualisations showing spatial distributions of different species to promote stakeholder engagement and interest in biodiversity monitoring.</li>
 </ul>
 </section>
 <section id="fellow" class="level3" style="text-transform:none;">
@@ -214,9 +214,9 @@ window.Quarto = {
 <p><em>Data Science for Social Good Foundation and University of Warwick</em> <span class="cvdate">Jun 2022 – Aug 2022</span></p>
 <p>A joint project with UNICEF and Save the Children. The aim was to predict multi-dimensional child poverty in Sub-Saharan Africa to optimise resource allocation.</p>
 <ul>
-<li>A <a href="https://github.com/DSSGxUK/s22_savethechildren">package</a> to produce high-resolution poverty estimates using data from Google Earth Engine, Facebook’s ads connectivity graph and Relative Wealth Index, and open telecommunications tower networks.</li>
-<li>Demographic and Health Surveys (DHS) to ground predictions of the machine learning model(s).</li>
-<li>Results presented at the <a href="https://www.youtube.com/watch?v=yM1LPiqHSFA&amp;list=PL5fDyB21zyLNy5WZAXosFc6yfeZw9ISeR&amp;t=754s">UN World Data Forum 2023</a> and published in the <a href="https://www.e-elgar.com/shop/gbp/handbook-on-child-poverty-and-inequality-9781802200423.html">Handbook on Child Poverty and Inequality</a>.</li>
+<li>A <a href="https://github.com/DSSGxUK/s22_savethechildren">Python package</a> to produce high-resolution poverty estimates using data from Google Earth Engine, Facebook’s ads connectivity graph and Relative Wealth Index, and open telecommunications tower networks. Demographic and Health Surveys (DHS) to ground predictions of the machine learning model(s).</li>
+<li>Led the development of an autoencoder-based feature extractor for GEE rasters and produced uncertainity estimates for the model(s) using conformal prediction.</li>
+<li>Results presented at the <a href="https://www.youtube.com/watch?v=yM1LPiqHSFA&amp;list=PL5fDyB21zyLNy5WZAXosFc6yfeZw9ISeR&amp;t=754s">UN World Data Forum 2023</a> and published as a chapter in the <a href="https://www.e-elgar.com/shop/gbp/handbook-on-child-poverty-and-inequality-9781802200423.html">Handbook on Child Poverty and Inequality</a>.</li>
 </ul>
 </section>
 </section>
@@ -336,6 +336,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

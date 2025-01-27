@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -39,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-a2baa4885e07df15884e55463320f9cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,8 +71,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-gallery .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-gallery'] = new List('listing-gallery', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -119,7 +182,6 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#research-interests" id="toc-research-interests" class="nav-link active" data-scroll-target="#research-interests">Research Interests</a></li>
   <li><a href="#other-activities" id="toc-other-activities" class="nav-link" data-scroll-target="#other-activities">Other Activities</a></li>
-  <li><a href="#gallery" id="toc-gallery" class="nav-link" data-scroll-target="#gallery">Gallery</a></li>
   </ul>
 </nav>
     </div>
@@ -147,17 +209,82 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="research-interests" class="level2">
 <h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
-<p>My research interests span generative AI, human-computer interaction, and AI-enhanced learning. I’m interested in investigating methods to improve the realism of foundation models, and combining these models across different modalities to produce interactive simulacra of human behaviour. I’m part of the <a href="https://eps.leeds.ac.uk/computing-research-groups/doc/artificial-intelligence">AI Research Theme</a> and the MIRAI (Medical Imaging and GeneRative AI) and AI4L (AI for Languages) Research Groups at the University of Leeds.</p>
+<p>My research interests span generative AI, human-computer interaction, and AI-enhanced learning. I’m interested in investigating methods to improve the realism of foundation models, and combining these models across different modalities to produce interactive simulacra of human behaviour. My doctoral research falls within the <a href="https://eps.leeds.ac.uk/computing-research-groups/doc/artificial-intelligence">AI Research Theme</a> and I’m part of the MIRAI (Medical Imaging and GeneRative AI) and AI4L (AI for Languages) Research Groups at the University of Leeds.</p>
 </section>
 <section id="other-activities" class="level2">
 <h2 class="anchored" data-anchor-id="other-activities">Other Activities</h2>
-<p>Beyond my research, I like getting involved in relevant activites. I’m a student organiser for our CDT’s annual conference in <a href="https://ai-medical-cdt.github.io/conference2025/">June 2025</a>. I was part of the organising team in <a href="https://sites.google.com/view/leedsaimedicalcdtconference?usp=sharing">2024</a> as well, including moderating the industry panel at the event. I’ve also been involved in STEM engagement through the <a href="https://ai24.imascientist.org.uk/profile/arpitasaggar/">I’m a Scientist, Get me out of here</a> programme. During my master’s, I edited our department’s annual tech magazine, <a href="https://cs.du.ac.in/uploads/srijan/Srijan_Vol11_2021.pdf">Srijan</a>, and volunteered as a Python programming mentor at the Uplift Project by GirlScript Foundation.</p>
-<p>Outside of academic life, I enjoy listening to music, swimming, playing chess and badminton, roller skating and bowling (though I’m not very good at it 😅). Below are some pictures of my PhD life with my wonderful peers in the CDT.</p>
-</section>
-<section id="gallery" class="level2">
-<h2 class="anchored" data-anchor-id="gallery">Gallery</h2>
+<p>I am involved in relevant activites beyond my research. I’m a student organiser for our CDT’s annual conference in <a href="https://ai-medical-cdt.github.io/conference2025/">June 2025</a>. I was part of the organising team in <a href="https://sites.google.com/view/leedsaimedicalcdtconference?usp=sharing">2024</a> as well, and moderated the industry panel at the event. I’ve also been involved in STEM engagement through the <a href="https://ai24.imascientist.org.uk/profile/arpitasaggar/">I’m a Scientist, Get me out of here</a> programme. During my master’s, I edited the university’s annual tech magazine, <a href="https://cs.du.ac.in/students/student-activities/srijan/">Srijan</a>, and volunteered as a Python programming mentor at the Uplift Project by GirlScript Foundation.</p>
+<p>Outside of academic life, I enjoy listening to music, swimming, playing chess and badminton, roller skating and bowling (though I’m not very good at it 😅). Below are some pictures of my PhD journey so far.</p>
+<div id="listing-gallery" class="quarto-listing quarto-listing-container-custom">
+<style type="text/css">
+.grid-gallery {
+  columns: 3 200px;
+  column-gap: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.grid-item {
+  width: 150px;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+}
+img.grid-item {
+  width: 100%;
+  transition: all .25s ease-in-out;
+}
+img.grid-item:hover {
+  transform: scale(1.025);
+}
+</style>
+<div class="grid-gallery">
+<div>
+<p><a href="gallery/esc.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1;" data-gallery="quarto-grid-gallery"><img src="gallery/esc.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="gallery/coffee.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2;" data-gallery="quarto-grid-gallery"><img src="gallery/coffee.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="gallery/beach.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-3;" data-gallery="quarto-grid-gallery"><img src="gallery/beach.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="gallery/tea.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-4;" data-gallery="quarto-grid-gallery"><img src="gallery/tea.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="gallery/golf.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-5;" data-gallery="quarto-grid-gallery"><img src="gallery/golf.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="gallery/poster.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-6;" data-gallery="quarto-grid-gallery"><img src="gallery/poster.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
+
+<div class="hidden" aria-hidden="true">
+<div class="glightbox-desc lightbox-desc-1">
+<p>Our failed attempt at an escape room :(</p>
+</div>
+<div class="glightbox-desc lightbox-desc-2">
+<p>Coffee in Leeds City Centre with my CDT peers</p>
+</div>
+<div class="glightbox-desc lightbox-desc-3">
+<p>At Cullercoats Beach in Tynemouth</p>
+</div>
+<div class="glightbox-desc lightbox-desc-4">
+<p>Pretending we’re posh - Tea @ Bettys in Harrogate</p>
+</div>
+<div class="glightbox-desc lightbox-desc-5">
+<p>At Junkyard Golf Club</p>
+</div>
+<div class="glightbox-desc lightbox-desc-6">
+<p>Presenting my dorky poster at the Turing CDT Conference in Birmingham</p>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -265,6 +392,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -579,6 +713,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

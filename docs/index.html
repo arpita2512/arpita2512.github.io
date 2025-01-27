@@ -137,16 +137,16 @@ ul.task-list li input[type="checkbox"] {
   <a href="mailto:scasag@leeds.ac.uk" class="about-link" rel="" target="">
      <span class="about-link-text"><i class="fa-solid fa-envelope fa-xl" aria-label="envelope"></i></span>
   </a>
-  <a href="https://www.linkedin.com/in/arpitasaggar/" class="about-link" rel="" target="">
+  <a href="https://www.linkedin.com/in/arpitasaggar/" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="fa-brands fa-linkedin fa-xl" aria-label="linkedin"></i></span>
   </a>
-  <a href="https://scholar.google.co.uk/citations?hl=en&amp;pli=1&amp;user=YAAJNhwAAAAJ" class="about-link" rel="" target="">
+  <a href="https://scholar.google.co.uk/citations?hl=en&amp;pli=1&amp;user=YAAJNhwAAAAJ" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-google-scholar ai-xl" aria-label="google-scholar"></i></span>
   </a>
-  <a href="https://github.com/arpita2512" class="about-link" rel="" target="">
+  <a href="https://github.com/arpita2512" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="fa-brands fa-github fa-xl" aria-label="github"></i></span>
   </a>
-  <a href="https://orcid.org/0009-0009-7550-0863" class="about-link" rel="" target="">
+  <a href="https://orcid.org/0009-0009-7550-0863" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-orcid ai-xl" aria-label="orcid"></i></span>
   </a>
 </div>
@@ -262,6 +262,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

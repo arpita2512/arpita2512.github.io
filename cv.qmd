@@ -2,6 +2,8 @@
 format:
   html:
     toc: true
+    link-external-icon: true
+    link-external-newwindow: true
 pagetitle: "Curriculum Vitae"
 css: assets/cv.css
 format-links: [pdf]
@@ -44,8 +46,8 @@ format-links: [pdf]
 
 A short research project in collaboration with the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) to apply machine learning for biodiversity monitoring. [REPORT](https://www.turing.ac.uk/news/publications/data-study-group-final-report-uk-centre-ecology-hydrology-ukceh)
 
--   Biodiversity metrics and interactive data visualisations for variations in moth populations to promote stakeholder engagement and interest in biodiversity monitoring.
--   Methods to improve the transparency of machine learning models and increase the trustworthiness of monitoring results.
+-   Developed methods for analysing how variations in weather (temperature, rainfall, sunshine and wind) affect species abundance for moth populations.
+-   Produced interactive data visualisations showing spatial distributions of different species to promote stakeholder engagement and interest in biodiversity monitoring.
 
 ### Fellow{style="text-transform:none;"}
 
@@ -53,9 +55,9 @@ A short research project in collaboration with the [UK Centre for Ecology & Hydr
 
 A joint project with UNICEF and Save the Children. The aim was to predict multi-dimensional child poverty in Sub-Saharan Africa to optimise resource allocation.
 
--   A [package](https://github.com/DSSGxUK/s22_savethechildren) to produce high-resolution poverty estimates using data from Google Earth Engine, Facebook’s ads connectivity graph and Relative Wealth Index, and open telecommunications tower networks. 
--   Demographic and Health Surveys (DHS) to ground predictions of the machine learning model(s). 
--   Results presented at the [UN World Data Forum 2023](https://www.youtube.com/watch?v=yM1LPiqHSFA&list=PL5fDyB21zyLNy5WZAXosFc6yfeZw9ISeR&t=754s) and published in the [Handbook on Child Poverty and Inequality](https://www.e-elgar.com/shop/gbp/handbook-on-child-poverty-and-inequality-9781802200423.html).
+-   A [Python package](https://github.com/DSSGxUK/s22_savethechildren) to produce high-resolution poverty estimates using data from Google Earth Engine, Facebook’s ads connectivity graph and Relative Wealth Index, and open telecommunications tower networks. Demographic and Health Surveys (DHS) to ground predictions of the machine learning model(s). 
+-   Led the development of an autoencoder-based feature extractor for GEE rasters and produced uncertainity estimates for the model(s) using conformal prediction.
+-   Results presented at the [UN World Data Forum 2023](https://www.youtube.com/watch?v=yM1LPiqHSFA&list=PL5fDyB21zyLNy5WZAXosFc6yfeZw9ISeR&t=754s) and published as a chapter in the [Handbook on Child Poverty and Inequality](https://www.e-elgar.com/shop/gbp/handbook-on-child-poverty-and-inequality-9781802200423.html).
 
 ## TECHNICAL SKILLS
 
