@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Arpita Saggar",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Hello!\nI’m a PhD student within the UKRI CDT in AI for Medical Diagnosis and Care at the University of Leeds. My research focuses on using generative AI to create patient simulations for medical training. I’m fortunate to be supervised by Professor David Hogg, Dr Duygu Sarikaya, Dr Jonathan Darling and Professor Vania Dimitrova.\nBefore starting my PhD, I was a Data Science for Social Good fellow at the University of Warwick, where I worked with Save The Children UK and UNICEF to map child poverty across sub-Saharan Africa. My background is in Computing, and I’ve previously worked on research projects at the intersection of AI and healthcare."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "About this site"
+    "text": "Micro-projections of multidimensional child poverty in sub-Saharan Africa \n            \n            \n                Marina Vicini, John Fitzgerald, Daniela Pinto Veizaga,  Arpita Saggar, Oliver Fiala  \n                Handbook on Child Poverty and Inequality (2025)\n            \n            \n                TLDR: \n                Chapter on machine learning methods for producing fine-grained multidimensional child poverty estimates.\n            \n\n            \n                \n                    Handbook (to be published)\n                \n            \n        \n        \n            \n        \n    \n    \n    \n        \n            \n                XAI-MethylMarker: Explainable AI approach for biomarker discovery for breast cancer subtype classification using methylation data \n            \n            \n                Sheetal Rajpal, Ankit Rajpal,  Arpita Saggar, Ashok K Vaid, Virendra Kumar, Manoj Agarwal, Naveen Kumar  \n                Expert Systems with Applications (2023)\n            \n            \n                TLDR: \n                Explainable AI-based biomarker discovery framework applied to DNA methylation data to determine a small biomarker set for breast cancer stratification.\n            \n\n            \n                \n                    Paper\n                \n                    DOI\n                \n                    Code\n                \n            \n        \n        \n            \n        \n    \n    \n    \n        \n            \n                COV-ELM classifier: An extreme learning machine based identification of COVID-19 using chest X-ray images \n            \n            \n                Sheetal Rajpal, Manoj Agarwal, Ankit Rajpal, Navin Lakhyani,  Arpita Saggar, Naveen Kumar  \n                Intelligent Decision Technologies (2022)\n            \n            \n                TLDR: \n                A three-stage ELM-based framework to distinguish between COVID-19, normal, and pneumonia chest X-rays.\n            \n\n            \n                \n                    Paper\n                \n                    DOI\n                \n            \n        \n        \n            \n        \n    \n    \n\n\nNo matching items"
   },
   {
     "objectID": "cv.html",
@@ -21,95 +14,11 @@
     "text": "Doctor of Philosophy – AI for Medical Diagnosis and Care  University of Leeds 2022 — Present\n\nThesis Title: A virtual patient to support medical training\nEPSRC PhD Studentship\nExpected completion: Oct 2026\n\nMaster of Computer Applications  University of Delhi 2019 — 2022\n\nThesis Title: XAI-based Biomarker Discovery for Breast Cancer Stratification using Multi-Omics Data\n\\(1^{st}\\) Class Honours (79.1%)\n\nB.Sc. (Hons) Computer Science  University of Delhi 2016 — 2019\n\nIndraprastha College for Women\n\\(1^{st}\\) Class Honours (84.5%)\n\n\n\n\n\n\nSchool of Computer Science, University of Leeds Oct 2023 – Present\n\nCOMP5122M Data Science  Module Lead: Dr Duygu Sarikaya\nCOMP2121 Data Mining  Module Lead: Prof Eric Atwell\nCOMP5840M Data Mining and Text Analytics  Module Lead: Prof Eric Atwell\nCOMP2611 Artificial Intelligence  Module Lead: Dr Brandon Bennett\n\n\n\n\nData Study Group, Alan Turing Institute Dec 2023 – Dec 2023\nA short research project in collaboration with the UK Centre for Ecology & Hydrology to apply machine learning for biodiversity monitoring. REPORT\n\nDeveloped methods for analysing how variations in weather (temperature, rainfall, sunshine and wind) affect species abundance for moth populations.\nProduced interactive data visualisations showing spatial distributions of different species to promote stakeholder engagement and interest in biodiversity monitoring.\n\n\n\n\nData Science for Social Good Foundation and University of Warwick Jun 2022 – Aug 2022\nA joint project with UNICEF and Save the Children. The aim was to predict multi-dimensional child poverty in Sub-Saharan Africa to optimise resource allocation.\n\nA Python package to produce high-resolution poverty estimates using data from Google Earth Engine, Facebook’s ads connectivity graph and Relative Wealth Index, and open telecommunications tower networks. Demographic and Health Surveys (DHS) to ground predictions of the machine learning model(s).\nLed the development of an autoencoder-based feature extractor for GEE rasters and produced uncertainity estimates for the model(s) using conformal prediction.\nResults presented at the UN World Data Forum 2023 and published as a chapter in the Handbook on Child Poverty and Inequality.\n\n\n\n\n\n\nLanguages: Python, R, C++, SQL, HTML/CSS, JavaScript, LaTeX.\nFrameworks & Tools: Git, Slurm, Tensorflow, PyTorch, Keras, Transformers, Scikit-Learn, Streamlit, Quarto."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Micro-projections of multidimensional child poverty in sub-Saharan Africa \n            \n            \n                Marina Vicini, John Fitzgerald, Daniela Pinto Veizaga,  Arpita Saggar, Oliver Fiala  \n                Handbook on Child Poverty and Inequality (2025)\n            \n            \n                TLDR: \n                Chapter on machine learning methods for producing fine-grained multidimensional child poverty estimates.\n            \n\n            \n                \n                    Handbook (to be published)\n                \n            \n        \n        \n            \n        \n    \n    \n    \n        \n            \n                XAI-MethylMarker: Explainable AI approach for biomarker discovery for breast cancer subtype classification using methylation data \n            \n            \n                Sheetal Rajpal, Ankit Rajpal,  Arpita Saggar, Ashok K Vaid, Virendra Kumar, Manoj Agarwal, Naveen Kumar  \n                Expert Systems with Applications (2023)\n            \n            \n                TLDR: \n                Explainable AI-based biomarker discovery framework applied to DNA methylation data to determine a small biomarker set for breast cancer stratification.\n            \n\n            \n                \n                    Paper\n                \n                    DOI\n                \n                    Code\n                \n            \n        \n        \n            \n        \n    \n    \n    \n        \n            \n                COV-ELM classifier: An extreme learning machine based identification of COVID-19 using chest X-ray images \n            \n            \n                Sheetal Rajpal, Manoj Agarwal, Ankit Rajpal, Navin Lakhyani,  Arpita Saggar, Naveen Kumar  \n                Intelligent Decision Technologies (2022)\n            \n            \n                TLDR: \n                A three-stage ELM-based framework to distinguish between COVID-19, normal, and pneumonia chest X-rays.\n            \n\n            \n                \n                    Paper\n                \n                    DOI\n                \n            \n        \n        \n            \n        \n    \n    \n\n\nNo matching items"
-  },
-  {
-    "objectID": "activities.html",
-    "href": "activities.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Finley Malloc",
-    "section": "",
-    "text": "twitter\n  \n  \n    \n     Github\n  \n\n  \n  \nFinley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\n\n\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011\n\n\n\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
-  },
-  {
-    "objectID": "test.html#education",
-    "href": "test.html#education",
-    "title": "Finley Malloc",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "test.html#experience",
-    "href": "test.html#experience",
-    "title": "Finley Malloc",
-    "section": "",
-    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
-  },
-  {
-    "objectID": "orcid/clean_pub_data.html",
-    "href": "orcid/clean_pub_data.html",
-    "title": "Arpita Saggar",
-    "section": "",
-    "text": "import pandas as pd\npd.set_option('display.max_columns', 500)\n\n\ndf = pd.read_csv(\"works.csv\")\ndf.head(2)\n\n\n\n\n\n\n\n\nput_code\nurl\ntype\njournal_title\nvisibility\npath\ndisplay_index\ncreated_date_value\nlast_modified_date_value\nsource_source_orcid\nsource_assertion_origin_client_id\nsource_source_client_id_uri\nsource_source_client_id_path\nsource_source_client_id_host\nsource_source_name_value\nsource_assertion_origin_orcid_uri\nsource_assertion_origin_orcid_path\nsource_assertion_origin_orcid_host\nsource_assertion_origin_name_value\ntitle_subtitle\ntitle_translated_title\ntitle_title_value\nexternal_id_type\nexternal_id_value\nexternal_id_normalized_error\nexternal_id_url\nexternal_id_relationship\nexternal_id_normalized_value\nexternal_id_normalized_transient\npublication_date_year_value\npublication_date_month_value\npublication_date_day_value\nurl_value\npublication_date_day\njournal_title_value\n\n\n\n\n0\n172900202\nNaN\nreport\nNaN\npublic\n/0009-0009-7550-0863/work/172900202\n1\n2024-12-02\n1733132536520\nNaN\nNaN\nhttps://orcid.org/client/APP-IN0O56SBVVTB7NN4\nAPP-IN0O56SBVVTB7NN4\norcid.org\nOpenAIRE Explore\nhttps://orcid.org/0009-0009-7550-0863\n0009-0009-7550-0863\norcid.org\nArpita Saggar\nNaN\nNaN\nData Study Group Final Report: UK Centre for E...\ndoi\n10.5281/zenodo.13687424\nNaN\nNaN\nself\n10.5281/zenodo.13687424\nTrue\n2024\n9.0\n5.0\nNaN\nNaN\nNaN\n\n\n1\n172900202\nNaN\nreport\nNaN\npublic\n/0009-0009-7550-0863/work/172900202\n1\n2024-12-02\n1733132536520\nNaN\nNaN\nhttps://orcid.org/client/APP-IN0O56SBVVTB7NN4\nAPP-IN0O56SBVVTB7NN4\norcid.org\nOpenAIRE Explore\nhttps://orcid.org/0009-0009-7550-0863\n0009-0009-7550-0863\norcid.org\nArpita Saggar\nNaN\nNaN\nData Study Group Final Report: UK Centre for E...\ndoi\n10.5281/zenodo.13687423\nNaN\nNaN\nself\n10.5281/zenodo.13687423\nTrue\n2024\n9.0\n5.0\nNaN\nNaN\nNaN\n\n\n\n\n\n\n\n\nx = df[(df[\"external_id_type\"]==\"doi\") & (df['source_source_name_value']!=\"Symplectic Elements at University of Leeds\")]\nx = x.drop_duplicates(subset=[\"title_title_value\"])\n\n\nx.to_csv(\"clean_works.csv\")"
-  },
-  {
-    "objectID": "orcid/rorcid.html",
-    "href": "orcid/rorcid.html",
-    "title": "Arpita Saggar",
-    "section": "",
-    "text": "library(rorcid)\nlibrary(usethis)\nlibrary(tidyverse)\nlibrary(anytime)\nlibrary(lubridate)\nlibrary(janitor)\nlibrary(httr)\nlibrary(listviewer)\n\nWarning message:\n\"package 'rorcid' was built under R version 4.3.3\"\nWarning message:\n\"package 'usethis' was built under R version 4.3.3\"\nWarning message:\n\"package 'tidyverse' was built under R version 4.3.3\"\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nWarning message:\n\"package 'anytime' was built under R version 4.3.3\"\nWarning message:\n\"package 'janitor' was built under R version 4.3.3\"\n\nAttaching package: 'janitor'\n\n\nThe following objects are masked from 'package:stats':\n\n    chisq.test, fisher.test\n\n\nWarning message:\n\"package 'listviewer' was built under R version 4.3.3\"\n\n\n\norcid_auth()\n\n#as_orcid &lt;- c(\"0009-0009-7550-0863\")\n#as_works &lt;- rorcid::works(as_orcid)\n\n'Bearer 24ace195-430c-47f0-a7d5-1edbca2fff98'\n\n\n\nas_orcid &lt;- c(\"0009-0009-7550-0863\")\nas_works &lt;- rorcid::works(as_orcid) %&gt;%\n  as_tibble() %&gt;%\n  janitor::clean_names() %&gt;%\n  dplyr::mutate(created_date_value = anytime::anydate(created_date_value/1000))\n\n#as_works\n\n\nas_works_ids &lt;- as_works %&gt;%\n  tidyr::unnest(external_ids_external_id) %&gt;%\n  janitor::clean_names()\n\nas_works_ids\n\n\nA tibble: 16 × 35\n\n\nput_code\nurl\ntype\njournal_title\nvisibility\npath\ndisplay_index\ncreated_date_value\nlast_modified_date_value\nsource_source_orcid\n⋯\nexternal_id_url\nexternal_id_relationship\nexternal_id_normalized_value\nexternal_id_normalized_transient\npublication_date_year_value\npublication_date_month_value\npublication_date_day_value\nurl_value\npublication_date_day\njournal_title_value\n\n\n&lt;int&gt;\n&lt;lgl&gt;\n&lt;chr&gt;\n&lt;lgl&gt;\n&lt;chr&gt;\n&lt;chr&gt;\n&lt;chr&gt;\n&lt;date&gt;\n&lt;dbl&gt;\n&lt;lgl&gt;\n⋯\n&lt;lgl&gt;\n&lt;chr&gt;\n&lt;chr&gt;\n&lt;lgl&gt;\n&lt;chr&gt;\n&lt;chr&gt;\n&lt;chr&gt;\n&lt;chr&gt;\n&lt;lgl&gt;\n&lt;chr&gt;\n\n\n\n\n172900202\nNA\nreport\nNA\npublic\n/0009-0009-7550-0863/work/172900202\n1\n2024-12-02\n1.733133e+12\nNA\n⋯\nNA\nself\n10.5281/zenodo.13687424\nTRUE\n2024\n09\n05\nNA\nNA\nNA\n\n\n172900202\nNA\nreport\nNA\npublic\n/0009-0009-7550-0863/work/172900202\n1\n2024-12-02\n1.733133e+12\nNA\n⋯\nNA\nself\n10.5281/zenodo.13687423\nTRUE\n2024\n09\n05\nNA\nNA\nNA\n\n\n172900152\nNA\ndata-set\nNA\npublic\n/0009-0009-7550-0863/work/172900152\n1\n2024-12-02\n1.733133e+12\nNA\n⋯\nNA\nself\n10.5281/zenodo.10299648\nTRUE\n2023\n12\n08\nNA\nNA\nNA\n\n\n172900152\nNA\ndata-set\nNA\npublic\n/0009-0009-7550-0863/work/172900152\n1\n2024-12-02\n1.733133e+12\nNA\n⋯\nNA\nself\n10.5281/zenodo.10299649\nTRUE\n2023\n12\n08\nNA\nNA\nNA\n\n\n172899568\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172899568\n1\n2024-12-02\n1.733132e+12\nNA\n⋯\nNA\nself \n10.1016/j.eswa.2023.120130\nTRUE\n2023\nNA\nNA\nhttp://www.scopus.com/inward/record.url?eid=2-s2.0-85153312973&partnerID=MN8TOARS\nNA\nExpert Systems with Applications\n\n\n172899568\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172899568\n1\n2024-12-02\n1.733132e+12\nNA\n⋯\nNA\nself \n2-s2.0-85153312973 \nTRUE\n2023\nNA\nNA\nhttp://www.scopus.com/inward/record.url?eid=2-s2.0-85153312973&partnerID=MN8TOARS\nNA\nExpert Systems with Applications\n\n\n172899568\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172899568\n1\n2024-12-02\n1.733132e+12\nNA\n⋯\nNA\npart-of\n0957-4174 \nTRUE\n2023\nNA\nNA\nhttp://www.scopus.com/inward/record.url?eid=2-s2.0-85153312973&partnerID=MN8TOARS\nNA\nExpert Systems with Applications\n\n\n172903580\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172903580\n1\n2024-12-02\n1.733135e+12\nNA\n⋯\nNA\nself\n10.1016/j.eswa.2023.120130\nTRUE\n2023\n09\nNA\nhttps://app.dimensions.ai/details/publication/pub.1157336186\nNA\nExpert Systems With Applications\n\n\n172903580\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172903580\n1\n2024-12-02\n1.733135e+12\nNA\n⋯\nNA\npart-of\n0957-4174\nTRUE\n2023\n09\nNA\nhttps://app.dimensions.ai/details/publication/pub.1157336186\nNA\nExpert Systems With Applications\n\n\n172903580\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172903580\n1\n2024-12-02\n1.733135e+12\nNA\n⋯\nNA\nself\n900525\nTRUE\n2023\n09\nNA\nhttps://app.dimensions.ai/details/publication/pub.1157336186\nNA\nExpert Systems With Applications\n\n\n172899567\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172899567\n1\n2024-12-02\n1.733132e+12\nNA\n⋯\nNA\nself \n10.3233/idt-210055 \nTRUE\n2022\nNA\nNA\nhttp://www.scopus.com/inward/record.url?eid=2-s2.0-85129330164&partnerID=MN8TOARS\nNA\nIntelligent Decision Technologies\n\n\n172899567\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172899567\n1\n2024-12-02\n1.733132e+12\nNA\n⋯\nNA\nself \n2-s2.0-85129330164 \nTRUE\n2022\nNA\nNA\nhttp://www.scopus.com/inward/record.url?eid=2-s2.0-85129330164&partnerID=MN8TOARS\nNA\nIntelligent Decision Technologies\n\n\n172899567\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172899567\n1\n2024-12-02\n1.733132e+12\nNA\n⋯\nNA\npart-of\n1875-8843 \nTRUE\n2022\nNA\nNA\nhttp://www.scopus.com/inward/record.url?eid=2-s2.0-85129330164&partnerID=MN8TOARS\nNA\nIntelligent Decision Technologies\n\n\n172903579\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172903579\n1\n2024-12-02\n1.733135e+12\nNA\n⋯\nNA\nself\n10.3233/idt-210055\nTRUE\n2022\n04\n18\nhttps://app.dimensions.ai/details/publication/pub.1146300370\nNA\nIntelligent Decision Technologies\n\n\n172903579\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172903579\n1\n2024-12-02\n1.733135e+12\nNA\n⋯\nNA\npart-of\n1872-4981\nTRUE\n2022\n04\n18\nhttps://app.dimensions.ai/details/publication/pub.1146300370\nNA\nIntelligent Decision Technologies\n\n\n172903579\nNA\njournal-article\nNA\npublic\n/0009-0009-7550-0863/work/172903579\n1\n2024-12-02\n1.733135e+12\nNA\n⋯\nNA\nself\n900526\nTRUE\n2022\n04\n18\nhttps://app.dimensions.ai/details/publication/pub.1146300370\nNA\nIntelligent Decision Technologies\n\n\n\n\n\n\nwrite_csv(as_works_ids, \"works.csv\")"
-  },
-  {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "Curriculum Vitae",
     "section": "",
     "text": "Doctor of Philosophy – AI for Medical Diagnosis and Care  University of Leeds 2022 — Present\n\nThesis Title: A virtual patient to support medical training\nEPSRC PhD Studentship\nExpected completion: Oct 2026\n\nMaster of Computer Applications  University of Delhi 2019 — 2022\n\nThesis Title: XAI-based Biomarker Discovery for Breast Cancer Stratification using Multi-Omics Data\n\\(1^{st}\\) Class Honours (79.1%)\n\nB.Sc. (Hons) Computer Science  University of Delhi 2016 — 2019\n\nIndraprastha College for Women\n\\(1^{st}\\) Class Honours (84.5%)"
-  },
-  {
-    "objectID": "cv.html#work-experience",
-    "href": "cv.html#work-experience",
-    "title": "Curriculum Vitae",
-    "section": "WORK EXPERIENCE",
-    "text": "WORK EXPERIENCE\n\nData Scientist\nFreelance, Multiple Clients Jan 2020 – June 2021\nProviding data collection, pre-processing, exploratory analysis and modelling services to clients in the early R&D stages of developing data driven products. Projects include:\n\nData description and preliminary product feasibility insights for a start-up real estate bond platform; including assessing suitability of various property transaction databases for use in initial product prototype.\nDevelopment of statistical anomaly detection regimes and key historical insights from internet quality time-series data for use in parametric insurance products, including documenting analysis tools in an R package."
-  },
-  {
-    "objectID": "cv.html#presentations-and-workshops",
-    "href": "cv.html#presentations-and-workshops",
-    "title": "\\(\\sigma\\)",
-    "section": "",
-    "text": "Talk: Misadventures with Reproducibility in R (30 Nov 2022, R Ladies Melbourne Meetup)\nTalk: Designing R Packages (4 Oct 2022, Monash EBS Data Science Research Software Study Group)\nTalk: Quarto Websites as Research Compendiums (16 Aug 2022, Monash EBS Data Science Research Software Study Group)\nWorkshop: Writing academic papers with Rmarkdown and friends (9 Aug 2022, Monash University)"
-  },
-  {
-    "objectID": "cv.html#references",
-    "href": "cv.html#references",
-    "title": "\\(\\sigma\\)",
-    "section": "",
-    "text": "Available upon request"
   },
   {
     "objectID": "cv.html#select-experience",
@@ -147,10 +56,10 @@
     "text": "Other Activities\nI am involved in relevant activites beyond my research. I’m a student organiser for our CDT’s annual conference in June 2025. I was part of the organising team in 2024 as well, and moderated the industry panel at the event. I’ve also been involved in STEM engagement through the I’m a Scientist, Get me out of here programme. During my master’s, I edited the university’s annual tech magazine, Srijan, and volunteered as a Python programming mentor at the Uplift Project by GirlScript Foundation.\nOutside of academic life, I enjoy listening to music, swimming, playing chess and badminton, roller skating and bowling (though I’m not very good at it 😅). Below are some pictures of my PhD journey so far.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nOur failed attempt at an escape room :(\n\n\nCoffee in Leeds City Centre with my CDT peers\n\n\nAt Cullercoats Beach in Tynemouth\n\n\nPretending we’re posh - Tea @ Bettys in Harrogate\n\n\nAt Junkyard Golf Club\n\n\nPresenting my dorky poster at the Turing CDT Conference in Birmingham"
   },
   {
-    "objectID": "about.html#gallery",
-    "href": "about.html#gallery",
-    "title": "About",
-    "section": "Gallery",
-    "text": "Gallery"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Arpita Saggar",
+    "section": "",
+    "text": "Hello!\nI’m a PhD student within the UKRI CDT in AI for Medical Diagnosis and Care at the University of Leeds. My research focuses on using generative AI to create patient simulations for medical training. I’m fortunate to be supervised by Professor David Hogg, Dr Duygu Sarikaya, Dr Jonathan Darling and Professor Vania Dimitrova.\nBefore starting my PhD, I was a Data Science for Social Good fellow at the University of Warwick, where I worked with Save The Children UK and UNICEF to map child poverty across sub-Saharan Africa. My background is in Computing, and I’ve previously worked on research projects at the intersection of AI and healthcare."
   }
 ]
