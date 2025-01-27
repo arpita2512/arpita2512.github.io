@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  title: "Arpita Saggar"
   navbar:
     right:
       - href: about.qmd
@@ -12,6 +11,9 @@ website:
         text: Research
       - href: cv.qmd
         text: Short CV
+    left:
+      - href: index.qmd
+        text: Home
 
 format:
   html:
