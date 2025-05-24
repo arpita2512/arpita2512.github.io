@@ -44,12 +44,12 @@ format-links: [pdf]
 
 *Data Study Group, Alan Turing Institute* [Dec 2023 -- Dec 2023]{.cvdate}
 
-A short research project the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) to develop machine learning solutions for biodiversity monitoring. [REPORT](https://www.turing.ac.uk/news/publications/data-study-group-final-report-uk-centre-ecology-hydrology-ukceh)
+A short research project the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) to develop machine learning solutions for biodiversity monitoring. [REPORT](https://www.turing.ac.uk/news/publications/data-study-group-final-report-uk-centre-ecology-hydrology-ukceh), [DATASET](https://zenodo.org/records/10299649)
 
 -   Developed methods for analysing correlations between weather variables and species abundance for moth populations.
 -   Produced interactive data visualisations to highlight spatial distribution patterns for different species to promote stakeholder engagement.
 
-### Research Fellow{style="text-transform:none;"}
+### Fellow{style="text-transform:none;"}
 
 *Data Science for Social Good Foundation and University of Warwick* [Jun 2022 -- Aug 2022]{.cvdate}
 

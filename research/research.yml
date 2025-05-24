@@ -19,6 +19,8 @@
     link: https://www.sciencedirect.com/science/article/pii/S0957417423006322
   - name: Code
     link: https://github.com/SheetalRajpal/methyl-marker
+  - name: Patent
+    link: https://patents.google.com/patent/DE202024100861U1/en?oq=DE202024100861U1
 
 - title: "COV-ELM classifier: An extreme learning machine based identification of COVID-19 using chest X-ray images"
   authors: "Sheetal Rajpal, Manoj Agarwal, Ankit Rajpal, Navin Lakhyani, Arpita Saggar, Naveen Kumar"
