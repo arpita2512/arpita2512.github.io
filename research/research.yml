@@ -17,8 +17,6 @@
   btn:
   - name: Paper
     link: https://www.sciencedirect.com/science/article/pii/S0957417423006322
-  - name: DOI
-    link: https://doi.org/10.1016/j.eswa.2023.120130
   - name: Code
     link: https://github.com/SheetalRajpal/methyl-marker
 
@@ -31,5 +29,3 @@
   btn:
   - name: Paper
     link: https://content.iospress.com/articles/intelligent-decision-technologies/idt210055
-  - name: DOI
-    link: https://doi.org/10.3233/IDT-210055

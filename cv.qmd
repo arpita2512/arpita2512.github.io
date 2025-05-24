@@ -44,20 +44,27 @@ format-links: [pdf]
 
 *Data Study Group, Alan Turing Institute* [Dec 2023 -- Dec 2023]{.cvdate}
 
-A short research project in collaboration with the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) to apply machine learning for biodiversity monitoring. [REPORT](https://www.turing.ac.uk/news/publications/data-study-group-final-report-uk-centre-ecology-hydrology-ukceh)
+A short research project the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) to develop machine learning solutions for biodiversity monitoring. [REPORT](https://www.turing.ac.uk/news/publications/data-study-group-final-report-uk-centre-ecology-hydrology-ukceh)
 
--   Developed methods for analysing how variations in weather (temperature, rainfall, sunshine and wind) affect species abundance for moth populations.
--   Produced interactive data visualisations showing spatial distributions of different species to promote stakeholder engagement and interest in biodiversity monitoring.
+-   Developed methods for analysing correlations between weather variables and species abundance for moth populations.
+-   Produced interactive data visualisations to highlight spatial distribution patterns for different species to promote stakeholder engagement.
 
-### Fellow{style="text-transform:none;"}
+### Research Fellow{style="text-transform:none;"}
 
 *Data Science for Social Good Foundation and University of Warwick* [Jun 2022 -- Aug 2022]{.cvdate}
 
-A joint project with UNICEF and Save the Children. The aim was to predict multi-dimensional child poverty in Sub-Saharan Africa to optimise resource allocation.
+DSSGx fellowship project with UNICEF and Save the Children UK to predict multi-dimensional child poverty in Sub-Saharan Africa.
 
--   A [Python package](https://github.com/DSSGxUK/s22_savethechildren) to produce high-resolution poverty estimates using data from Google Earth Engine, Facebook’s ads connectivity graph and Relative Wealth Index, and open telecommunications tower networks. Demographic and Health Surveys (DHS) to ground predictions of the machine learning model(s). 
--   Led the development of an autoencoder-based feature extractor for GEE rasters and produced uncertainity estimates for the model(s) using conformal prediction.
--   Results presented at the [UN World Data Forum 2023](https://www.youtube.com/watch?v=yM1LPiqHSFA&list=PL5fDyB21zyLNy5WZAXosFc6yfeZw9ISeR&t=754s) and published as a chapter in the [Handbook on Child Poverty and Inequality](https://www.e-elgar.com/shop/gbp/handbook-on-child-poverty-and-inequality-9781802200423.html).
+- Built a [Python package](https://github.com/DSSGxUK/s22_savethechildren) to produce high-resolution poverty estimates using multimodal data and Demographic and Health Surveys (DHS) to ground predictions of the machine learning model(s).
+- Developed an autoencoder for extracting features from Google Earth Engine rasters and produced uncertainty estimates through conformal prediction.
+- Results from this work were presented at the [UN World Data Forum 2023](https://www.youtube.com/watch?v=yM1LPiqHSFA&list=PL5fDyB21zyLNy5WZAXosFc6yfeZw9ISeR&t=754s) and visualisations are available on STC's [Child Atlas](https://www.childatlas.org/blog/mapping-child-poverty).
+
+## RECENT AWARDS
+
+ - People's Choice Prize, Research Spotlight Competition, London Hopper Colloquium (2025)
+ - Finalist, Research Presentation Competition, BFWG (2025)
+ - 1st place, The Easy Read Image Generation Hackathon, Leeds Digital Health (2025)
+ - Travel Grant for AI UK, The Alan Turing Institute (2023)
 
 ## TECHNICAL SKILLS
 
