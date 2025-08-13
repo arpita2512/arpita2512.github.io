@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -25,37 +25,26 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c4914e26efbcd5f98073d9b45ef72066.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c5caddb9c9dbe126e8f5b7c60715a120.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -70,8 +59,94 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-gallery .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-gallery'] = new List('listing-gallery', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-authors','listing-venue','listing-logo','listing-tldr','listing-year','listing-btn',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-authors","listing-venue","listing-logo","listing-tldr","listing-year","listing-btn"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="assets/styles.css">
 <meta property="og:title" content="Arpita Saggar">
@@ -89,7 +164,6 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -102,16 +176,16 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./index.html#sec-news"> 
+<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="./index.html#sec-research"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">Short CV</span></a>
+    <a class="nav-link" href="./index.html#sec-other"> 
+<span class="menu-text">Other Activities</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -134,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-about-trestles">
   <div class="about-entity">
     <img src="assets/arpita.jpg" class="about-image
-  round " style="height: 16em; width: 16em;">
+  round " style="height: 18em; width: 18em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Arpita Saggar</h1>
@@ -163,15 +237,234 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents"><div id="profile">
 <section id="hello" class="level3">
 <h3 data-anchor-id="hello">Hello!</h3>
-<p>I’m a PhD student within the <a href="https://ai-medical.leeds.ac.uk/">UKRI CDT in AI for Medical Diagnosis and Care</a> at the University of Leeds. My research focuses on using generative AI to create patient simulations for medical training. I’m fortunate to be supervised by <a href="https://eps.leeds.ac.uk/staff/84/professor-david-hogg">Professor David Hogg</a>, <a href="https://eps.leeds.ac.uk/computing/staff/13320/dr-duygu-sarikaya">Dr Duygu Sarikaya</a>, <a href="https://medicinehealth.leeds.ac.uk/medicine/staff/257/dr-jonathan-darling">Dr Jonathan Darling</a> and <a href="https://eps.leeds.ac.uk/staff/184/professor-vania-dimitrova">Professor Vania Dimitrova</a>.</p>
+<p>I am a PhD student within the <a href="https://ai-medical.leeds.ac.uk/">UKRI CDT in AI for Medical Diagnosis and Care</a> at the University of Leeds. My doctoral research focuses on using generative AI to create patient simulations for medical training. I am fortunate to be supervised by <a href="https://eps.leeds.ac.uk/staff/84/professor-david-hogg">Professor David Hogg</a>, <a href="https://eps.leeds.ac.uk/computing/staff/13320/dr-duygu-sarikaya">Dr Duygu Sarikaya</a>, <a href="https://medicinehealth.leeds.ac.uk/medicine/staff/257/dr-jonathan-darling">Dr Jonathan Darling</a> and <a href="https://eps.leeds.ac.uk/staff/184/professor-vania-dimitrova">Professor Vania Dimitrova</a>.</p>
 <p>Before starting my PhD, I was a <a href="https://warwick.ac.uk/research/data-science/warwick-data/dssgx/dssgx2022/">Data Science for Social Good fellow</a> at the University of Warwick, where I worked with Save The Children UK and UNICEF to <a href="https://www.childatlas.org/blog/mapping-child-poverty">map child poverty across sub-Saharan Africa</a>. My background is in Computing, and I’ve previously worked on research projects at the intersection of AI and healthcare.</p>
 </section>
 </div></div>
 </div>
 
+<section id="sec-news" class="level3">
+<h3 data-anchor-id="sec-news">News</h3>
+<div class="newslist">
+<ul>
+<li>
+[Sep 2025] I will be presenting my poster on persona-conditioned dialogue generation at the UK AI Research Symposium in Newcastle
+</li>
+<li>
+[Aug 2025] I will be presenting my research on ChatGPT-simulated clinical training scenarios at the AMEE Conference in Barcelona
+</li>
+<li>
+[Jul 2025] <a href="https://arpita2512.github.io/score_before_you_speak/" target="_blank">Score Before You Speak</a> has been accepted to the European Conference on Artificial Intelligence (ECAI)
+</li>
+<li>
+[Jun 2025] I shared the Best Poster Prize with Yushi Guo at the Annual Conference of the AI-Medical CDT
+</li>
+<li>
+[May 2025] I won People’s Choice Prize at the London Hopper Colloquium, organised by UCL Computer Science, EPSRC, BCS Academy of Computing and GSA Capital
+</li>
+<li>
+[May 2025] I presented my research on ChatGPT-simulated clinical training scenarios at the Research Presentation Day organised by the British Federation of Women Graduates
+</li>
+<li>
+[Mar 2025] My team won first place in the Easy Read Image Generation Hackathon organised by Leeds Digital Health
+</li>
+<!--  <li></li> -->
+</ul>
+</div>
+</section>
+<section id="sec-research" class="level3">
+<h3 data-anchor-id="sec-research">Research</h3>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
+<div class="publications">
+    
+    <div class="pub-entry">
+        <div class="body">
+            <p class="pub-title" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">
+                Score Before You Speak: Improving Persona Consistency in Dialogue Generation using Response Quality Scores 
+            </p>
+            <p class="pub-details">
+                <span class="pub-authors"></span> <span class="pub-authors" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">Arpita Saggar</span><span class="pub-authors">, Jonathan C. Darling, Vania Dimitrova, Duygu Sarikaya, David C. Hogg</span> </p><div style="height:1px;font-size:1px;">&nbsp;</div>
+                <span class="pub-venue" style="font-weight: bolder;text-shadow: 0.5px 0.5px #000000;font-style: italic;">European Conference on Artificial Intelligence</span> <span class="pub-year" style="font-weight: bolder;text-shadow: 0.5px 0.5px #000000;font-style: italic;">(2025)</span>
+            <p></p>
+            <p class="pub-tldr">
+                <span class="pub-tldr" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">TLDR: </span>
+                Score-conditioned next token prediction to improve persona consistency in dialogue
+            </p>
+
+            <ul class="pub-btns">
+                
+                    <a href="https://arpita2512.github.io/score_before_you_speak/" class="btn btn-primary btn-sm rounded pt-0 pb-0" role="button" target="_blank">Project Page</a>
+                
+                    <a href="https://arxiv.org/abs/2508.06886" class="btn btn-primary btn-sm rounded pt-0 pb-0" role="button" target="_blank">Paper</a>
+                
+                    <a href="https://github.com/arpita2512/score_before_you_speak" class="btn btn-primary btn-sm rounded pt-0 pb-0" role="button" target="_blank">Code</a>
+                
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="research/sbs_diagram.svg" alt="Score Before You Speak: Improving Persona Consistency in Dialogue Generation using Response Quality Scores" title="Score Before You Speak: Improving Persona Consistency in Dialogue Generation using Response Quality Scores">
+        </div>
+    </div>
+    
+    <div class="pub-entry">
+        <div class="body">
+            <p class="pub-title" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">
+                Micro-projections of multidimensional child poverty in sub-Saharan Africa 
+            </p>
+            <p class="pub-details">
+                <span class="pub-authors">Marina Vicini, John Fitzgerald, Daniela Pinto Veizaga, </span> <span class="pub-authors" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">Arpita Saggar</span><span class="pub-authors">, Oliver Fiala</span> </p><div style="height:1px;font-size:1px;">&nbsp;</div>
+                <span class="pub-venue" style="font-weight: bolder;text-shadow: 0.5px 0.5px #000000;font-style: italic;">Handbook on Child Poverty and Inequality</span> <span class="pub-year" style="font-weight: bolder;text-shadow: 0.5px 0.5px #000000;font-style: italic;">(2025)</span>
+            <p></p>
+            <p class="pub-tldr">
+                <span class="pub-tldr" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">TLDR: </span>
+                Chapter on machine learning methods for producing fine-grained multidimensional child poverty estimates.
+            </p>
+
+            <ul class="pub-btns">
+                
+                    <a href="https://www.elgaronline.com/edcollchap/book/9781802200430/chapter20.xml" class="btn btn-primary btn-sm rounded pt-0 pb-0" role="button" target="_blank">Handbook Chapter</a>
+                
+                    <a href="https://github.com/DSSGxUK/s22_savethechildren" class="btn btn-primary btn-sm rounded pt-0 pb-0" role="button" target="_blank">Code</a>
+                
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="research/dssg.png" alt="Micro-projections of multidimensional child poverty in sub-Saharan Africa" title="Micro-projections of multidimensional child poverty in sub-Saharan Africa">
+        </div>
+    </div>
+    
+    <div class="pub-entry">
+        <div class="body">
+            <p class="pub-title" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">
+                XAI-MethylMarker: Explainable AI approach for biomarker discovery for breast cancer subtype classification using methylation data 
+            </p>
+            <p class="pub-details">
+                <span class="pub-authors">Sheetal Rajpal, Ankit Rajpal, </span> <span class="pub-authors" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">Arpita Saggar</span><span class="pub-authors">, Ashok K Vaid, Virendra Kumar, Manoj Agarwal, Naveen Kumar</span> </p><div style="height:1px;font-size:1px;">&nbsp;</div>
+                <span class="pub-venue" style="font-weight: bolder;text-shadow: 0.5px 0.5px #000000;font-style: italic;">Expert Systems with Applications</span> <span class="pub-year" style="font-weight: bolder;text-shadow: 0.5px 0.5px #000000;font-style: italic;">(2023)</span>
+            <p></p>
+            <p class="pub-tldr">
+                <span class="pub-tldr" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">TLDR: </span>
+                Explainable AI-based biomarker discovery framework applied to DNA methylation data to determine a small biomarker set for breast cancer stratification.
+            </p>
+
+            <ul class="pub-btns">
+                
+                    <a href="https://www.sciencedirect.com/science/article/pii/S0957417423006322" class="btn btn-primary btn-sm rounded pt-0 pb-0" role="button" target="_blank">Paper</a>
+                
+                    <a href="https://github.com/SheetalRajpal/methyl-marker" class="btn btn-primary btn-sm rounded pt-0 pb-0" role="button" target="_blank">Code</a>
+                
+                    <a href="https://patents.google.com/patent/DE202024100861U1/en?oq=DE202024100861U1" class="btn btn-primary btn-sm rounded pt-0 pb-0" role="button" target="_blank">Patent</a>
+                
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="research/xai_methyl.png" alt="XAI-MethylMarker: Explainable AI approach for biomarker discovery for breast cancer subtype classification using methylation data" title="XAI-MethylMarker: Explainable AI approach for biomarker discovery for breast cancer subtype classification using methylation data">
+        </div>
+    </div>
+    
+    <div class="pub-entry">
+        <div class="body">
+            <p class="pub-title" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">
+                COV-ELM classifier: An extreme learning machine based identification of COVID-19 using chest X-ray images 
+            </p>
+            <p class="pub-details">
+                <span class="pub-authors">Sheetal Rajpal, Manoj Agarwal, Ankit Rajpal, Navin Lakhyani, </span> <span class="pub-authors" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">Arpita Saggar</span><span class="pub-authors">, Naveen Kumar</span> </p><div style="height:1px;font-size:1px;">&nbsp;</div>
+                <span class="pub-venue" style="font-weight: bolder;text-shadow: 0.5px 0.5px #000000;font-style: italic;">Intelligent Decision Technologies</span> <span class="pub-year" style="font-weight: bolder;text-shadow: 0.5px 0.5px #000000;font-style: italic;">(2022)</span>
+            <p></p>
+            <p class="pub-tldr">
+                <span class="pub-tldr" style="font-weight: 900;text-shadow: 0.5px 0.5px #000000;">TLDR: </span>
+                A three-stage ELM-based framework to distinguish between COVID-19, normal, and pneumonia chest X-rays.
+            </p>
+
+            <ul class="pub-btns">
+                
+                    <a href="https://content.iospress.com/articles/intelligent-decision-technologies/idt210055" class="btn btn-primary btn-sm rounded pt-0 pb-0" role="button" target="_blank">Paper</a>
+                
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="research/cov_elm.png" alt="COV-ELM classifier: An extreme learning machine based identification of COVID-19 using chest X-ray images" title="COV-ELM classifier: An extreme learning machine based identification of COVID-19 using chest X-ray images">
+        </div>
+    </div>
+    
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="sec-other" class="level3">
+<h3 data-anchor-id="sec-other">Other Activities</h3>
+<p>I am involved in relevant activites beyond my research. I’m a student representative for my CDT and helped organise our annual CDT conference in <a href="https://ai-medical-cdt.github.io/conference2025/">2025</a> and <a href="https://sites.google.com/view/leedsaimedicalcdtconference?usp=sharing">2024</a> (also moderated the industry panel in 2024). I’ve also been involved in STEM engagement through the <a href="https://ai24.imascientist.org.uk/profile/arpitasaggar/">I’m a Scientist, Get me out of here</a> programme. During my master’s, I edited the university’s annual tech magazine, <a href="https://cs.du.ac.in/students/student-activities/srijan/">Srijan</a>, and volunteered as a programming mentor at the Uplift Project by GirlScript Foundation.</p>
+<p>Outside of academic life, I enjoy listening to music, swimming, playing chess and badminton, roller skating and bowling (though I’m not very good at it 😅). Below are some pictures taken during my PhD journey.</p>
+<div id="listing-gallery" class="quarto-listing quarto-listing-container-custom">
+<style type="text/css">
+.grid-gallery {
+  columns: 3;
+  column-gap: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.grid-item {
+  width: 150px;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+}
+img.grid-item {
+  width: 100%;
+  transition: all .25s ease-in-out;
+}
+img.grid-item:hover {
+  transform: scale(1.025);
+}
+</style>
+<div class="grid-gallery">
+<div>
+<p><a href="gallery/cdt_conf.jpg" class="lightbox" data-gallery="quarto-grid-gallery" data-glightbox="description: .lightbox-desc-1;"><img src="gallery/cdt_conf.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="gallery/mirai.jpeg" class="lightbox" data-gallery="quarto-grid-gallery" data-glightbox="description: .lightbox-desc-2;"><img src="gallery/mirai.jpeg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="gallery/knaresborough.jpg" class="lightbox" data-gallery="quarto-grid-gallery" data-glightbox="description: .lightbox-desc-3;"><img src="gallery/knaresborough.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="gallery/coffee.jpg" class="lightbox" data-gallery="quarto-grid-gallery" data-glightbox="description: .lightbox-desc-4;"><img src="gallery/coffee.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="gallery/hopper.jpg" class="lightbox" data-gallery="quarto-grid-gallery" data-glightbox="description: .lightbox-desc-5;"><img src="gallery/hopper.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href="gallery/golf.jpg" class="lightbox" data-gallery="quarto-grid-gallery" data-glightbox="description: .lightbox-desc-6;"><img src="gallery/golf.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
 
+
+<div class="hidden" aria-hidden="true">
+<div class="glightbox-desc lightbox-desc-1">
+<p>AI-Medical CDT Conference 2025</p>
+</div>
+<div class="glightbox-desc lightbox-desc-2">
+<p>MIRAI group lunch at Bill’s</p>
+</div>
+<div class="glightbox-desc lightbox-desc-3">
+<p>Brunch in sunny Knaresborough</p>
+</div>
+<div class="glightbox-desc lightbox-desc-4">
+<p>Coffee with my peers in Leeds City Centre</p>
+</div>
+<div class="glightbox-desc lightbox-desc-5">
+<p>Presenting my work at the Hopper Colloquium in London</p>
+</div>
+<div class="glightbox-desc lightbox-desc-6">
+<p>At Junkyard Golf Club in Leeds</p>
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -574,6 +867,38 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
