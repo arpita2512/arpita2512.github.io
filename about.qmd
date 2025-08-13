@@ -11,11 +11,11 @@ listing:
     contents: gallery/gallery.yml
 ---
 
-## Research Interests
+## Research Interests {#sec-research}
 
 My research interests span generative AI, human-computer interaction, and AI-enhanced learning. I'm interested in investigating methods to improve the realism of foundation models, and combining these models across different modalities to produce interactive simulacra of human behaviour. My doctoral research falls within the [AI Research Theme](https://eps.leeds.ac.uk/computing-research-groups/doc/artificial-intelligence) and I'm part of the MIRAI (Medical Imaging and GeneRative AI) and AI4L (AI for Languages) Research Groups at the University of Leeds.
 
-## Other Activities
+## Other Activities {#sec-other}
 
 I am involved in relevant activites beyond my research. I'm a student representative for my doctoral training centre and a student organiser for our CDT's annual conference in [June 2025](https://ai-medical-cdt.github.io/conference2025/). I was part of the organising team in [2024](https://sites.google.com/view/leedsaimedicalcdtconference?usp=sharing) as well, and moderated the industry panel at the event. I've also been involved in STEM engagement through the [I’m a Scientist, Get me out of here](https://ai24.imascientist.org.uk/profile/arpitasaggar/) programme. During my master's, I edited the university's annual tech magazine, [Srijan](https://cs.du.ac.in/students/student-activities/srijan/), and volunteered as a programming mentor at the Uplift Project by GirlScript Foundation.
 

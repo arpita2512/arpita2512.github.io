@@ -19,3 +19,12 @@ a:hover{
 div.quarto-about-trestles {
     padding-top: 0em !important;
 }
+
+div.newslist {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+h3 {
+    padding-bottom: 1em;
+}

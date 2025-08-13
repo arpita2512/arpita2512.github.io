@@ -1,6 +1,12 @@
+- path: gallery/cdt_conf.jpg
+  description: AI-Medical CDT Conference 2025
+- path: gallery/mirai.jpeg
+  description: MIRAI group lunch at Bill's
 - path: gallery/knaresborough.jpg
   description: Brunch in sunny Knaresborough
+- path: gallery/coffee.jpg
+  description: Coffee with my peers in Leeds City Centre
 - path: gallery/hopper.jpg
-  description: At the Hopper Colloquium in London
+  description: Presenting my work at the Hopper Colloquium in London
 - path: gallery/golf.jpg
   description: At Junkyard Golf Club in Leeds

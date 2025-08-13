@@ -6,5 +6,9 @@
   {
     "listing": "/about.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]

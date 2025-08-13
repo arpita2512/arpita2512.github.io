@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  search: false 
   twitter-card:
     title: Arpita Saggar
     description: PhD student at the UKRI AI-Medical CDT, University of Leeds
@@ -13,12 +14,12 @@ website:
     image: assets/arpita.jpg
   navbar:
     right:
-      - href: about.qmd
-        text: About
-      - href: research.qmd
+      - href: index.qmd#sec-news
+        text: News
+      - href: index.qmd#sec-research
         text: Research
-      - href: cv.qmd
-        text: Short CV
+      - href: index.qmd#sec-other
+        text: Other Activities
     left:
       - href: index.qmd
         text: Home

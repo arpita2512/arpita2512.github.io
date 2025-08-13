@@ -10,8 +10,8 @@ about:
   id: profile
   template: trestles
   image: assets/arpita.jpg
-  image-width: 16em
   image-shape: round
+  image-width: 18em
   links:
     - text: "{{< fa envelope size=xl >}}"
       href: "mailto:scasag@leeds.ac.uk"
@@ -27,12 +27,49 @@ about:
     - text: "{{< ai orcid size=xl >}}"
       href: https://orcid.org/0009-0009-7550-0863
       target: _blank
+listing: 
+  - id: gallery
+    template: assets/gallery.ejs
+    contents: gallery/gallery.yml
+  - id: articles
+    contents: research/research.yml
+    template: assets/research.ejs
+    sort: year desc
 ---
 
 :::{#profile}
 ### Hello!
 
-I'm a PhD student within the [UKRI CDT in AI for Medical Diagnosis and Care](https://ai-medical.leeds.ac.uk/) at the University of Leeds. My research focuses on using generative AI to create patient simulations for medical training. I'm fortunate to be supervised by [Professor David Hogg](https://eps.leeds.ac.uk/staff/84/professor-david-hogg), [Dr Duygu Sarikaya](https://eps.leeds.ac.uk/computing/staff/13320/dr-duygu-sarikaya), [Dr Jonathan Darling](https://medicinehealth.leeds.ac.uk/medicine/staff/257/dr-jonathan-darling) and [Professor Vania Dimitrova](https://eps.leeds.ac.uk/staff/184/professor-vania-dimitrova).
+I am a PhD student within the [UKRI CDT in AI for Medical Diagnosis and Care](https://ai-medical.leeds.ac.uk/) at the University of Leeds. My doctoral research focuses on using generative AI to create patient simulations for medical training. I am fortunate to be supervised by [Professor David Hogg](https://eps.leeds.ac.uk/staff/84/professor-david-hogg), [Dr Duygu Sarikaya](https://eps.leeds.ac.uk/computing/staff/13320/dr-duygu-sarikaya), [Dr Jonathan Darling](https://medicinehealth.leeds.ac.uk/medicine/staff/257/dr-jonathan-darling) and [Professor Vania Dimitrova](https://eps.leeds.ac.uk/staff/184/professor-vania-dimitrova).
 
 Before starting my PhD, I was a [Data Science for Social Good fellow](https://warwick.ac.uk/research/data-science/warwick-data/dssgx/dssgx2022/) at the University of Warwick, where I worked with Save The Children UK and UNICEF to [map child poverty across sub-Saharan Africa](https://www.childatlas.org/blog/mapping-child-poverty). My background is in Computing, and I’ve previously worked on research projects at the intersection of AI and healthcare.
+:::
+
+### News {#sec-news}
+
+<div class="newslist">
+<ul>
+  <li>[Sep 2025] I will be presenting my poster on persona-conditioned dialogue generation at the UK AI Research Symposium in Newcastle</li>
+  <li>[Aug 2025] I will be presenting my research on ChatGPT-simulated clinical training scenarios at the AMEE Conference in Barcelona</li>
+  <li>[Jul 2025] <a href="https://arpita2512.github.io/score_before_you_speak/" target="_blank">Score Before You Speak</a> has been accepted to the European Conference on Artificial Intelligence (ECAI)</li>
+  <li>[Jun 2025] I shared the Best Poster Prize with Yushi Guo at the Annual Conference of the AI-Medical CDT</li>
+  <li>[May 2025] I won People's Choice Prize at the London Hopper Colloquium, organised by UCL Computer Science, EPSRC, BCS Academy of Computing and GSA Capital</li>
+  <li>[May 2025] I presented my research on ChatGPT-simulated clinical training scenarios at the Research Presentation Day organised by the British Federation of Women Graduates</li>
+  <li>[Mar 2025] My team won first place in the Easy Read Image Generation Hackathon organised by Leeds Digital Health</li>
+<!--  <li></li> -->
+</ul>
+</div>
+
+### Research {#sec-research}
+
+:::{#articles}
+:::
+
+### Other Activities {#sec-other}
+
+I am involved in relevant activites beyond my research. I'm a student representative for my CDT and helped organise our annual CDT conference in [2025](https://ai-medical-cdt.github.io/conference2025/) and [2024](https://sites.google.com/view/leedsaimedicalcdtconference?usp=sharing) (also moderated the industry panel in 2024). I've also been involved in STEM engagement through the [I’m a Scientist, Get me out of here](https://ai24.imascientist.org.uk/profile/arpitasaggar/) programme. During my master's, I edited the university's annual tech magazine, [Srijan](https://cs.du.ac.in/students/student-activities/srijan/), and volunteered as a programming mentor at the Uplift Project by GirlScript Foundation.
+
+Outside of academic life, I enjoy listening to music, swimming, playing chess and badminton, roller skating and bowling (though I'm not very good at it 😅). Below are some pictures taken during my PhD journey.
+
+::: {#gallery}
 :::
