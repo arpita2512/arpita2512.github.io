@@ -49,8 +49,8 @@ Before starting my PhD, I was a [Data Science for Social Good fellow](https://wa
 
 <div class="newslist">
 <ul>
-  <li>[Sep 2025] I will be presenting my poster on persona-conditioned dialogue generation at the <a href="https://www.ukairs.ac.uk/" target="_blank">UK AI Research Symposium</a> in Newcastle</li>
-  <li>[Aug 2025] I will be presenting my research on ChatGPT-simulated clinical training scenarios at the <a href="https://amee.org/amee-2025//" target="_blank">AMEE Conference</a> in Barcelona</li>
+  <li>[Sep 2025] I will present my poster on persona-conditioned dialogue generation at the <a href="https://www.ukairs.ac.uk/" target="_blank">UK AI Research Symposium</a> in Newcastle</li>
+  <li>[Aug 2025] I presented my research on <a href="https://arpita2512.github.io/ai_simulated_clinical_consultations/" target="_blank">ChatGPT-simulated clinical training scenarios</a> at the <a href="https://amee.org/amee-2025/" target="_blank">AMEE Conference</a> in Barcelona</li>
   <li>[Jul 2025] <a href="https://arpita2512.github.io/score_before_you_speak/" target="_blank">Score Before You Speak</a> has been accepted to the <a href="https://ecai2025.org/" target="_blank">European Conference on Artificial Intelligence (ECAI)</a></li>
   <li>[Jun 2025] I shared the Best Poster Prize with Yushi Guo at the Annual Conference of the AI-Medical CDT</li>
   <li>[May 2025] I won People's Choice Prize at the <a href="https://www.ucl.ac.uk/engineering/news/2025/jun/london-hopper-inspiring-women-celebrating-research-advancing-computing" target="_blank">London Hopper Colloquium</a>, organised by UCL Computer Science, EPSRC, BCS Academy of Computing and GSA Capital</li>

@@ -1,11 +1,11 @@
+- path: gallery/amee.jpg
+  description: AMEE Conference 2025
+- path: gallery/knaresborough.jpg
+  description: Lunch in sunny Knaresborough
 - path: gallery/cdt_conf.jpg
   description: AI-Medical CDT Conference 2025
 - path: gallery/mirai.jpeg
   description: MIRAI group brunch at Bill's
-- path: gallery/knaresborough.jpg
-  description: Lunch in sunny Knaresborough
-- path: gallery/coffee.jpg
-  description: Coffee with my peers in Leeds City Centre
 - path: gallery/hopper.jpg
   description: Presenting my work at the London Hopper Colloquium
 - path: gallery/golf.jpg
