@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,13 +30,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ecc0d494351095ed8e23501bd57362ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d860af5b8a404132e33d1201b57772d8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
@@ -132,7 +133,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -248,7 +249,16 @@ window.Quarto = {
 <div class="newslist">
 <ul>
 <li>
-[Sep 2025] I will present my poster on persona-conditioned dialogue generation at the <a href="https://www.ukairs.ac.uk/" target="_blank">UK AI Research Symposium</a> in Newcastle
+[Dec 2025] I delivered a guest lecture on <em>Responsible Personalisation Illustrated with LLMs</em> for the <a href="https://catalogue.leeds.ac.uk/Module/UG/COMP/3771/202526" target="_blank">COMP3771 module at UoL</a>
+</li>
+<li>
+[Nov 2025] I was selected as a <a href="https://www.daad.de/en/the-daad/postdocnet/" target="_blank">DAAD AInet Fellow</a> (11/2025 Cohort)
+</li>
+<li>
+[Oct 2025] I attended ECAI 2025 in Bologna and presented <a href="https://arpita2512.github.io/score_before_you_speak/" target="_blank">Score Before You Speak</a>
+</li>
+<li>
+[Sep 2025] I presented my poster on persona-conditioned dialogue generation at the <a href="https://www.ukairs.ac.uk/" target="_blank">UK AI Research Symposium</a> in Newcastle
 </li>
 <li>
 [Aug 2025] I presented my research on <a href="https://arpita2512.github.io/ai_simulated_clinical_consultations/" target="_blank">ChatGPT-simulated clinical training scenarios</a> at the <a href="https://amee.org/amee-2025/" target="_blank">AMEE Conference</a> in Barcelona
@@ -505,13 +515,14 @@ img.grid-item:hover {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
