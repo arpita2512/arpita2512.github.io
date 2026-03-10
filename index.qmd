@@ -50,6 +50,7 @@ Before starting my PhD, I was a [Data Science for Social Good fellow](https://wa
 <div class="newslist">
 <ul>
   <li>[Mar 2026] Our preprint on 3D Gaussian Splatting-based talking head synthesis is now available on <a href="https://arxiv.org/abs/2603.07604" target="_blank">arXiv</a></li>
+  <li>[Mar 2026] <a href="https://adc.bmj.com/content/early/2026/03/06/archdischild-2025-329846.full" target="_blank">AI-Simulated Clinical Consultations</a>has been accepted to Archives of Disease in Childhood</li>
   <li>[Dec 2025] I delivered a guest lecture on *Responsible Personalisation Illustrated with LLMs* for the <a href="https://catalogue.leeds.ac.uk/Module/UG/COMP/3771/202526" target="_blank">COMP3771 module at UoL</a></li>
   <li>[Nov 2025] I was selected as a <a href="https://www.daad.de/en/the-daad/postdocnet/" target="_blank">DAAD AInet Fellow</a> (11/2025 Cohort)</li>
   <li>[Oct 2025] I attended ECAI 2025 in Bologna and presented <a href="https://arpita2512.github.io/score_before_you_speak/" target="_blank">Score Before You Speak</a></li>
