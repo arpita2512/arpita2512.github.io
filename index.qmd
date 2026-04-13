@@ -49,6 +49,7 @@ Before starting my PhD, I was a [Data Science for Social Good fellow](https://wa
 
 <div class="newslist">
 <ul>
+  <li>[Mar 2026] My team won the Gold Award in the Pharmacy2U Challenge at the <a href="https://mathsseminars.leeds.ac.uk/seminars/2026-03-30-data-ai-hackathon/" target="_blank">LIDA Data & AI Hackathon</a></li>
   <li>[Mar 2026] Our preprint on 3D Gaussian Splatting-based talking head synthesis is now available on <a href="https://arxiv.org/abs/2603.07604" target="_blank">arXiv</a></li>
   <li>[Mar 2026] <a href="https://adc.bmj.com/content/early/2026/03/06/archdischild-2025-329846.full" target="_blank">AI-Simulated Clinical Consultations</a>has been accepted to Archives of Disease in Childhood</li>
   <li>[Dec 2025] I delivered a guest lecture on *Responsible Personalisation Illustrated with LLMs* for the <a href="https://catalogue.leeds.ac.uk/Module/UG/COMP/3771/202526" target="_blank">COMP3771 module at UoL</a></li>
