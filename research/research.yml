@@ -14,7 +14,7 @@
   authors: "Arpita Saggar, Vania Dimitrova, Duygu Sarikaya, David C. Hogg, Jonathan C Darling"
   venue: BMJ Archives of Disease in Childhood
   logo: research/adc_chatgpt.jpg
-  tldr: ChatGPT-based agents to simulate patients, medical students and exmainers in OSCE scenarios
+  tldr: ChatGPT-based agents to simulate patients, medical students, and examiners in OSCE scenarios
   year: 2026
   btn:
   - name: Project Page
