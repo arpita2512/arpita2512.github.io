@@ -1,3 +1,27 @@
+- title: "EmbedTalk: Talking Head Synthesis using Gaussian Embeddings"
+  authors: "Arpita Saggar, Jonathan C. Darling, Duygu Sarikaya, David C. Hogg"
+  venue: Preprint
+  logo: research/embedtalk_overview.png
+  tldr: Embeddings to model speech-driven facial deformations for 3DGS-based talking head synthesis
+  year: 2026
+  btn:
+  - name: Project Page
+    link: https://arpita2512.github.io/EmbedTalk/
+  - name: Paper
+    link: https://arxiv.org/abs/2603.07604
+
+- title: "AI-simulated clinical consultations: Assessing the potential of ChatGPT to support medical training"
+  authors: "Arpita Saggar, Vania Dimitrova, Duygu Sarikaya, David C. Hogg, Jonathan C Darling"
+  venue: BMJ Archives of Disease in Childhood
+  logo: research/adc_chatgpt.jpg
+  tldr: ChatGPT-based agents to simulate patients, medical students and exmainers in OSCE scenarios
+  year: 2026
+  btn:
+  - name: Project Page
+    link: https://arpita2512.github.io/ai_simulated_clinical_consultations/
+  - name: Paper
+    link: https://adc.bmj.com/content/111/7/638.full
+
 - title: "Score Before You Speak: Improving Persona Consistency in Dialogue Generation using Response Quality Scores"
   authors: "Arpita Saggar, Jonathan C. Darling, Vania Dimitrova, Duygu Sarikaya, David C. Hogg"
   venue: European Conference on Artificial Intelligence
